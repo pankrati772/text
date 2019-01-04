@@ -1,0 +1,2876 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>京东(JD.COM)-正品低价、品质保障、配送及时、轻松购物！</title>
+    <link rel="icon"  href="img/logo.jpg">
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <link rel="stylesheet" type="text/css" href="css/font/iconfont.css">
+    <link rel="stylesheet" type="text/css" href="css/font1/iconfont.css">
+    <link rel="stylesheet" type="text/css" href="css/font2/iconfont.css">
+    <script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
+    <script type="text/javascript" src="js/move.js"></script>
+    <script type="text/javascript" src="js/pbl.js"></script>
+    <script type="text/javascript" src="js/ajax3.0.js"></script>
+</head>
+<body>
+    <div id="gg"><a href="#"><button>X</button></a></div>
+    <header>
+        <div class="head">
+            <ul class="head-left">
+                <li><div class="h_img"></div></li>
+
+                <li class="head_val">
+
+                <span class="area">广东</span>
+
+
+                </li>
+                <div id="area-choice"></div>
+            </ul>
+            <ul class="head-right">
+                <li><span>你好,请登录</span>&nbsp;
+                <span style="color:#f10215">免费注册</span>&nbsp;
+                <span>|</span>&nbsp;</li>
+                <li><span>我的订单</span>&nbsp;<span>|</span></li>&nbsp;
+                <li>&nbsp;<span id="myjd">我的京东Ｖ</span>
+                <div class="myjd">
+                    <ul id="myjd-list">
+                        <li>待处理订单</li>
+                        <li>消息</li>
+                        <li>返修退换货</li>
+                        <li>我的问答</li>
+                        <li>降价商品</li>
+                        <li>我的关注</li>
+                        <li>我的京豆</li>
+                        <li>我的优惠券</li>
+                        <li>我的白条</li>
+                        <li>我的理财</li>
+
+                    </ul>
+                </div><span>|</span>&nbsp;</li>
+                <li>&nbsp;<span>京东会员</span>&nbsp;<span>|</span>&nbsp;</li>
+                <li>&nbsp;<span id="qycg">企业采购Ｖ</span>
+                <div class="qycg">
+                    <ul id="qycg-list">
+                        <li>企业购</li>
+                        <li>商用场景馆</li>
+                        <li>工业品</li>
+                        <li>礼品卡</li>
+                    </ul>
+                </div>&nbsp;<span>|</span>&nbsp;</li>
+                <li>&nbsp;<span id="khfu">客户服务Ｖ</span><div class="khfu">
+                    <ul id="khfu-list">
+                        <li style="font-weight:bold">客户</li><br>
+                        <li>帮助中心</li>
+                        <li>售后服务</li>
+                        <li>在线客服</li>
+                        <li>意见建议</li>
+                        <li>电话客服</li>
+                        <li>客服邮箱</li>
+                        <li>金融咨询</li>
+                        <li>全球售客服</li><br>
+                        <li id="sh"  style="font-weight:bold ">商户</li><br>
+                        <li>合作招商</li>
+                        <li>学习中心</li>
+                        <li>商家后台</li>
+                        <li>京麦工作室</li>
+                        <li>商家帮助</li>
+                        <li>规划平台</li>
+                    </ul>
+                </div>&nbsp;<span>|</span>&nbsp;</li>
+                <li>&nbsp;<span id="wzdh">网站导航Ｖ</span><div class="wzdh">
+                    <ul id="wzdh-list1">
+                        <li style="font-weight:bold">特色主题</li><br>
+                        <li>京东使用</li>
+                        <li>京东金融</li>
+                        <li>全球售</li>
+                        <li>国际站</li>
+                        <li>京东会员</li>
+                        <li>京东预售</li>
+                        <li>买什么</li>
+                        <li>俄语站</li>
+                        <li>装机大师</li>
+                        <li>0元测评</li>
+                        <li>定期送</li>
+                        <li>港澳售</li>
+                        <li>优惠券</li>
+                        <li>秒杀</li>
+                        <li>闪购</li>
+                        <li>印尼站</li>
+                        <li>京东金融科技</li>
+                        <li>In货推荐</li>
+                        <!-- <li>陪伴计划</li>
+                        <li>出海招商</li> -->
+
+                    </ul>
+                    <ul id="wzdh-list2">
+                        <li style="font-weight:bold">行业频道</li><br>
+                        <li>手机</li>
+                        <li>智能数码</li>
+                        <li>玩3C</li>
+                        <li>电脑办公</li>
+                        <li>家用电器</li>
+                        <li>京东只能</li>
+                        <li>服装城</li>
+                        <li>京东生鲜</li>
+                        <li>家装城</li>
+                        <li>水电煤</li>
+                        <li>母婴</li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+
+                    </ul>
+                    <ul id="wzdh-list3">
+                        <li style="font-weight:bold">生活服务</li><br>
+                        <li>京东众筹</li>
+                        <li>白条</li>
+                        <li>京东金融APP</li>
+                        <li>京东小金库</li>
+                        <li>理财</li>
+                        <li>话费</li>
+                        <li>旅行</li>
+                        <li>京东到家</li>
+                        <li>酒店机票</li>
+                        <li>电影票</li>
+                        <li>游戏</li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+
+                    </ul>
+                    <ul id="wzdh-list4">
+                        <li><li style="font-weight:bold">更多精选</li><br>
+                        <li>合作招商</li>
+                        <li>京东通信</li>
+                        <li>京东E卡</li>
+                        <li>企业采购</li>
+                        <li>服务市场</li>
+                        <li>办公生活馆</li>
+                        <li>乡村招募</li>
+                        <li>校园加盟</li>
+                        <li>京友邦</li>
+                        <li>京东社区</li>
+                        <li>游戏社区</li>
+                        <li知识产权维权></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+
+                    </ul>
+                </div>&nbsp;<span>|</span>&nbsp;</li>
+                <li>&nbsp;<span>手机京东</span>&nbsp;
+                <div id="qrcode"></div>
+                </li>
+
+            </ul>
+        </div>
+    </header>
+    <div id="header">
+        <div class="w">
+            <div class="search">
+            <!-- 地区选取 -->
+                <div id="area">
+                    <ul>
+                        <li><a href="#">北京</a></li>
+                        <li><a href="#">上海</a></li>
+                        <li><a href="#">天津</a></li>
+                        <li><a href="#">重庆</a></li>
+                        <li><a href="#">河北</a></li>
+                        <li><a href="#">山西</a></li>
+                        <li><a href="#">河南</a></li>
+                        <li><a href="#">辽宁</a></li>
+                        <li><a href="#">吉林</a></li>
+                        <li><a href="#">江西</a></li>
+                        <li><a href="#">宁波</a></li>
+                        <li><a href="#">江苏</a></li>
+                        <li><a href="#">山东</a></li>
+                        <li><a href="#">安徽</a></li>
+                        <li><a href="#">浙江</a></li>
+                        <li><a href="#">福建</a></li>
+                        <li><a href="#">湖北</a></li>
+                        <li><a href="#">湖南</a></li>
+                        <li><a href="#" class="hover">广东</a></li>
+                        <li><a href="#">广西</a></li>
+
+                    </ul>
+                </div>
+                <div class="search-m">
+                    <form class="form">
+                        <input type="text" class="text">
+                        <span id="camera"></span>
+                        <input type="image" src="img/search.png" class="search-btn">
+                    </form>
+                </div>
+            </div>
+            <div id="settleup">
+                <div class="cw-icon">
+                    <i class="iconfont icon-cart">我的购物车</i>
+
+                </div>
+            </div>
+
+            <div class="hotwords">
+                <a href="#" class="abc" style="color:#f10215">轻薄笔记本</a>
+                <a href="#" class="abc">499减100</a>
+                <a href="#" class="abc">399减80</a>
+                <a href="#" class="abc">游戏本</a>
+                <a href="#" class="abc">游戏手机</a>
+                <a href="#" class="abc">华为手机</a>
+                <a href="#" class="abc">天下第一</a>
+                <a href="#" class="abc">垃圾苹果</a>
+                <a href="#" class="abc">只是街机</a>
+                <a href="#" class="abc">都是弟弟</a>
+            </div>
+
+            <div id="navitems">
+                <ul class="g1">
+                    <li><a href="">秒杀</a></li>
+                    <li><a href="">优惠券</a></li>
+                    <li><a href="">PLUS会员</a></li>
+                    <li><a href="">闪购</a></li>
+                    <span>|</span>
+                </ul>
+                <ul class="g2">
+                    <li><a href="">拍卖</a></li>
+                    <li><a href="">京东服饰</a></li>
+                    <li><a href="">京东超市</a></li>
+                    <li><a href="">京东生鲜</a></li>
+                    <span>|</span>
+                </ul>
+                <ul class="g3">
+                    <li><a href="">全球购</a></li>
+                    <li><a href="">京东金融</a></li>
+
+                </ul>
+            </div>
+
+            <div id="treasure">
+                <a href="#" class="treasure-gg"></a>
+            </div>
+
+
+        </div>
+
+
+    </div>
+
+    <!-- 躯干开始 -->
+    <div class="fs">
+
+        <div class="fs-1">
+            <div class="fs-col1">
+                <ul>
+                    <li class="fs-list"><a href="#">家用电器</a></li>
+                    <li class="fs-list"><a href="#">手机</a><span>/</span><a href="#">运营商</a><span>/</span><a href="#">数码</a></li>
+                    <li class="fs-list"><a href="#">电脑</a><span>/</span><a href="#">办公</a></li>
+                    <li class="fs-list"><a href="#">家居</a><span>/</span><a href="#">家具</a><span>/</span><a href="#">家装</a><span>/</span><a href="#">厨具</a></li>
+                    <li class="fs-list"><a href="#">男装</a><span>/</span><a href="#">女装</a><span>/</span><a href="#">童装</a><span>/</span><a href="#">内衣</a></li>
+                    <li class="fs-list"><a href="#">美妆</a><span>/</span><a href="#">个护清洁</a><span>/</span><a href="#">宠物</a></li>
+                    <li class="fs-list"><a href="#">女鞋</a><span>/</span><a href="#">宝箱</a><span>/</span><a href="#">钟表</a><span>/</span><a href="#">珠宝</a></li>
+                    <li class="fs-list"><a href="#">男鞋</a><span>/</span><a href="#">运动</a><span>/</span><a href="#">户外</a></li>
+                    <li class="fs-list"><a href="#">房产</a><span>/</span><a href="#">汽车</a><span>/</span><a href="#">汽车用品</a></li>
+                    <li class="fs-list"><a href="#">母婴</a><span>/</span><a href="#">玩具乐器</a></li>
+                    <li class="fs-list"><a href="#">食品</a><span>/</span><a href="#">酒类</a><span>/</span><a href="#">生鲜</a><span>/</span><a href="#">特产</a></li>
+                    <li class="fs-list"><a href="#">艺术</a><span>/</span><a href="#">礼品鲜花</a><span>/</span><a href="#">农资绿植</a></li>
+                    <li class="fs-list"><a href="#">医药保健</a><span>/</span><a href="#">计生情趣</a></li>
+                    <li class="fs-list"><a href="#">图像</a><span>/</span><a href="#">音像</a><span>/</span><a href="#">电子书</a></li>
+                    <li class="fs-list"><a href="#">机票</a><span>/</span><a href="#">酒店</a><span>/</span><a href="#">旅游</a><span>/</span><a href="#">生活</a></li>
+                    <li class="fs-list"><a href="#">理财</a><span>/</span><a href="#">众筹</a><span>/</span><a href="#">白条</a><span>/</span><a href="#">保险</a></li>
+                    <li class="fs-list"><a href="#">安装</a><span>/</span><a href="#">维修</a><span>/</span><a href="#">清洗保养</a></li>
+                </ul>
+            </div>
+            <!-- 躯干2级菜单 -->
+            <div class="mune">
+                <div class="span">
+                    <span>&nbsp;家电馆>&nbsp;</span>
+                    <span>&nbsp;乡镇专卖店>&nbsp;</span>
+                    <span>&nbsp;家电服务>&nbsp;</span>
+                    <span>&nbsp;家电企业购>&nbsp;</span>
+                    <span>&nbsp;商用电器>&nbsp;</span>
+                </div>
+                <div class="mune-list">
+                    <ul>
+                        <li style="font-weight:bold">电视&nbsp;></li>
+
+                        <li><span>|</span>&nbsp;曲面电视&nbsp;<span>|</span></li>
+
+                        <li>超薄电视&nbsp;<span>|</span></li>
+
+                        <li>OLED电视&nbsp;<span>|</span></li>
+
+                        <li>4K超清电视&nbsp;<span>|</span></li>
+
+                        <li>55英寸&nbsp;<span>|</span></li>
+
+                        <li>65英寸&nbsp;<span>|</span></li>
+
+                        <li>电视配件</li>
+                    </ul>
+
+                </div>
+                <br>
+                <div class="mune-list">
+                    <ul>
+                        <li style="font-weight:bold">空调&nbsp;></li>
+
+                        <li><span>|</span>&nbsp;壁挂式空调&nbsp;<span>|</span></li>
+
+                        <li>柜式空调&nbsp;<span>|</span></li>
+
+                        <li>中央空调&nbsp;<span>|</span></li>
+
+                        <li>一级能效空调&nbsp;<span>|</span></li>
+
+                        <li>变频空调&nbsp;<span>|</span></li>
+
+                        <li>1.5匹空调&nbsp;<span>|</span></li>
+                        <li>以旧换新&nbsp;<span>|</span></li>
+
+                        <li>单冷空调</li>
+                    </ul>
+
+                </div>
+                <br>
+                <div class="mune-list">
+                    <ul>
+                        <li style="font-weight:bold">洗衣机&nbsp;></li>
+
+                        <li><span>|</span>&nbsp;滚筒洗衣机&nbsp;<span>|</span></li>
+
+                        <li>洗烘一体机&nbsp;<span>|</span></li>
+
+                        <li>波轮洗衣机&nbsp;<span>|</span></li>
+
+                        <li>迷你洗衣机&nbsp;<span>|</span></li>
+
+                        <li>烘干机&nbsp;<span>|</span></li>
+
+                        <!-- <li>&nbsp;<span>|</span></li> -->
+
+                        <li>洗衣机配件</li>
+                    </ul>
+
+                </div>
+                <br>
+                <div class="mune-list">
+                    <ul>
+                        <li style="font-weight:bold">冰箱&nbsp;></li>
+
+                        <li><span>|</span>&nbsp;多门&nbsp;<span>|</span></li>
+
+                        <li>对开门&nbsp;<span>|</span></li>
+
+                        <li>三门&nbsp;<span>|</span></li>
+
+                        <li>双门&nbsp;<span>|</span></li>
+
+                        <li>冷柜/冰吧&nbsp;<span>|</span></li>
+
+                        <li>酒柜&nbsp;<span>|</span></li>
+
+                        <li>冰箱配件</li>
+                    </ul>
+
+                </div>
+                <br>
+                <div class="mune-list">
+                    <ul>
+                        <li style="font-weight:bold">厨卫大电&nbsp;></li>
+
+                        <li><span>|</span>&nbsp;油烟机&nbsp;<span>|</span></li>
+
+                        <li>燃气灶&nbsp;<span>|</span></li>
+
+                        <li>烟灶套装&nbsp;<span>|</span></li>
+
+                        <li>集成灶&nbsp;<span>|</span></li>
+
+                        <li>消毒柜&nbsp;<span>|</span></li>
+
+                        <li>洗碗机&nbsp;<span>|</span></li>
+                        <li>豆浆机&nbsp;<span>|</span></li>
+                        <li>料理机&nbsp;<span>|</span></li>
+                        <li>电饭锅&nbsp;<span>|</span></li>
+
+                        <li>煮蛋器</li>
+                    </ul>
+
+                </div>
+                <br>
+                <div class="mune-list">
+                    <ul>
+                        <li style="font-weight:bold">厨房小电&nbsp;></li>
+
+                        <li><span>|</span>&nbsp;破壁机&nbsp;<span>|</span></li>
+
+                        <li>电烤箱&nbsp;<span>|</span></li>
+
+                        <li>压力锅&nbsp;<span>|</span></li>
+
+                        <li>养生壶&nbsp;<span>|</span></li>
+
+                        <li>面包机&nbsp;<span>|</span></li>
+
+                        <li>电磁炉&nbsp;<span>|</span></li>
+
+                        <li>微波炉</li>
+                    </ul>
+
+                </div>
+                <br>
+                <div class="mune-list">
+                    <ul>
+                        <li style="font-weight:bold">生活电器&nbsp;></li>
+
+                        <li><span>|</span>&nbsp;吸尘器/除螨仪&nbsp;<span>|</span></li>
+
+                        <li>空气净化器&nbsp;<span>|</span></li>
+
+                        <li>扫地机器人&nbsp;<span>|</span></li>
+
+                        <li>蒸汽拖把/拖把机&nbsp;<span>|</span></li>
+
+                        <li>干衣机&nbsp;<span>|</span></li>
+
+                        <li>电话机&nbsp;<span>|</span></li>
+
+                        <li>饮水机</li>
+                    </ul>
+
+                </div>
+                <br>
+                <div class="mune-list">
+                    <ul>
+                        <li style="font-weight:bold">个护健康&nbsp;></li>
+
+                        <li><span>|</span>&nbsp;剃须刀&nbsp;<span>|</span></li>
+
+                        <li>电动牙刷&nbsp;<span>|</span></li>
+
+                        <li>电吹风&nbsp;<span>|</span></li>
+
+                        <li>按摩器&nbsp;<span>|</span></li>
+
+                        <li>健康秤&nbsp;<span>|</span></li>
+
+                        <li>卷/直发棒&nbsp;<span>|</span></li>
+
+                        <li>剃/脱毛机</li>
+                    </ul>
+
+                </div>
+                <br>
+                <div class="mune-list">
+                    <ul>
+                        <li style="font-weight:bold">家庭影音&nbsp;></li>
+
+                        <li><span>|</span>&nbsp;家庭影院&nbsp;<span>|</span></li>
+
+                        <li>KTV音响&nbsp;<span>|</span></li>
+
+                        <li>迷你音响&nbsp;<span>|</span></li>
+
+                        <li>DVD&nbsp;<span>|</span></li>
+
+                        <li>功放&nbsp;<span>|</span></li>
+
+                        <li>回音壁&nbsp;<span>|</span></li>
+
+                        <li>影音配件</li>
+                    </ul>
+
+                </div>
+                <br>
+                <div class="mune-list">
+                    <ul>
+                        <li style="font-weight:bold">进口电器&nbsp;></li>
+
+                        <li><span>|</span>&nbsp;进口电器&nbsp;<!-- <span>|</span> --></li>
+
+                        <!-- <li>超薄电视&nbsp;<span>|</span></li>
+
+                        <li>OLED电视&nbsp;<span>|</span></li>
+
+                        <li>4K超清电视&nbsp;<span>|</span></li>
+
+                        <li>55英寸&nbsp;<span>|</span></li>
+
+                        <li>65英寸&nbsp;<span>|</span></li>
+
+                        <li>电视配件</li> -->
+                    </ul>
+
+                </div>
+                <div id="mune-gg">
+
+                </div>
+
+            </div>
+            <div class="mune" style="font-size:80px">2</div>
+            <div class="mune" style="font-size:80px">3</div>
+            <div class="mune" style="font-size:80px">4</div>
+            <div class="mune" style="font-size:80px">5</div>
+            <div class="mune" style="font-size:80px">6</div>
+            <div class="mune" style="font-size:80px">7</div>
+            <div class="mune" style="font-size:80px">8</div>
+            <div class="mune" style="font-size:80px">9</div>
+            <div class="mune" style="font-size:80px">10</div>
+            <div class="mune" style="font-size:80px">11</div>
+            <div class="mune" style="font-size:80px">12</div>
+            <div class="mune" style="font-size:80px">13</div>
+            <div class="mune" style="font-size:80px">14</div>
+            <div class="mune" style="font-size:80px">15</div>
+            <div class="mune" style="font-size:80px">16</div>
+            <div class="mune" style="font-size:80px">17</div>
+
+            <div class="fs-2">
+                <div id="focus">
+                    <div class="pic">
+                        <img src="img/1.jpg" class="picture w">
+                        <img src="img/2.jpg" class="picture">
+                        <img src="img/3.jpg" class="picture">
+                        <img src="img/4.jpg" class="picture">
+                        <img src="img/5.jpg" class="picture">
+                        <img src="img/6.jpg" class="picture">
+                        <img src="img/7.jpg" class="picture">
+                        <img src="img/8.jpg" class="picture">
+
+
+                    <div class="pick">
+                        <ul>
+                            <li class="c"></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                        </ul>
+                    </div>
+
+                    <!-- 箭头方向 -->
+                        <div class="left"><</div>
+                        <div class="right">></div>
+                    </div>
+                </div>
+            </div>
+            <div class="fs-3">
+                <div class="j">
+                    <div class="j-pic">
+                        <img src="img/fs3-1.jpg">
+                    </div>
+                    <div class="j-pic">
+                        <img src="img/fs3-2.jpg">
+                    </div>
+                    <div class="j-pic">
+                        <img src="img/fs3-3.jpg">
+                    </div>
+                </div>
+            </div>
+            <div class="fs-4">
+                <div class="fs-4user">
+                    <div class="inner-user">
+                        <div class="avatar">
+                            <a href="#">
+                                <img src="img/no_login.jpg">
+                            </a>
+                        </div>
+                        <div class="user-show">
+                        <p class="user_tip">Hi~欢迎来到京东！</p>
+                        <p>
+                            <a href="#" class="tips">登录</a>
+                            <a href="#" class="tips">注册</a>
+                        </p>
+                        </div>
+                        <div class="user_profit">
+                            <a href="#" class="user_profit-a">新人福利</a>
+                            <a href="#" class="user_profit-b">PLUS会员</a>
+                        </div>
+                    </div>
+                    <div class="news">
+                        <div class="tab-head">
+                            <a href="#" class="tab-cx">促销</a>
+                            <a href="#" class="tab-gg">公告</a>
+                            <a href="#" class="tab-gd">更多</a>
+                        </div>
+                        <div class="tab-content">
+                            <div class="cont-item item1">
+                                <ul>
+                                    <li class="news_item">我饿</li>
+                                    <li class="news_item">我好饿</li>
+                                    <li class="news_item">我现在饿</li>
+                                    <li class="news_item">我现在好饿</li>
+                                </ul>
+                            </div>
+                            <div class="cont-item item2">
+                                <ul>
+                                    <li class="news_item">我困</li>
+                                    <li class="news_item">我好困</li>
+                                    <li class="news_item">我现在困</li>
+                                    <li class="news_item">我现在好困</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="service">
+
+                        <div class="entry">
+                            <ul class="service-list">
+                                <li class="service_item"><a href="#"><div><i class="iconfont icon-phone ico pho"></i></div><br><span>话费</span></a></li>
+                                <li class="service_item"><a href="#"><div><i class="iconfont icon-feiji ico"></i></div><br><span>机票</span></a></li>
+                                <li class="service_item"><a href="#"><div><i class="iconfont icon-jiudian ico"></i></div><br><span>酒店</span></a></li>
+                                <li class="service_item"><a href="#"><div><i class="iconfont icon-youxi ico"></i></div><br><span>游戏</span></a></li>
+                                <li class="service_item"><a href="#"><div><i class="iconfont icon-jiudian ico"></i></div><br><span>企业</span></a></li>
+                                <li class="service_item"><a href="#"><div><i class="iconfont icon-jiayouqia ico"></i></div><br><span>加油卡</span></a></li>
+                                <li class="service_item"><a href="#"><div><i class="iconfont icon-dianyingpiao"></i></div><br><span>电影票</span></a></li>
+                                <li class="service_item"><a href="#"><div><i class="iconfont icon-huochepiao ico"></i></div><br><span>火车票</span></a></li>
+                                <li class="service_item"><a href="#"><div><i class="iconfont icon-woyaozhongchou ico"></i></div><br><span>众筹</span></a></li>
+                                <li class="service_item"><a href="#"><div><i class="iconfont icon-licai ico"></i></div><br><span>理财</span></a></li>
+                                <li class="service_item"><a href="#"><div><i class="iconfont icon-qiabao ico"></i></div><br><span>礼品卡</span></a></li>
+                                <li class="service_item"><a href="#"><div><i class="iconfont icon-icon-- ico"></i></div><br><span>白条</span></a></li>
+                            </ul>
+                        </div>
+
+                        <div class="phone">
+                            <span>话费</span>
+                            <span>机票</span>
+                            <span>酒店</span>
+                            <span>游戏</span>
+                            <div class="up">Ｘ</div>
+                            <div class="huafei">
+                                <ul>
+                                    <li>话费充值</li>
+                                    <li>流量充值</li>
+                                    <li>套餐变更</li>
+                                </ul>
+                            </div>
+                            <br>
+                            <div class="huafei-form">
+                                <div class="form-top">
+                                    <ul>
+                                        <li><label>号码 : &nbsp;</label></li>
+                                        <li><input type="text" placeholder="请输入手机号" class="ph_num"></li>
+                                        <li></li>
+
+                                    </ul>
+                                    <ul>
+                                        <li><label>面值 : &nbsp;</label></li>
+                                        <li><select>
+                                            <option value="10">10元</option>
+                                            <option value="20">20元</option>
+                                            <option value="30">30元</option>
+                                            <option value="50">50元</option>
+                                            <option selected="selected" value="100">100元</option>
+                                            <option value="200">200元</option>
+                                            <option value="300">300元</option>
+                                            <option value="500">500元</option>
+                                        </select></li>
+                                        <li></li>
+
+                                    </ul>
+                                    <ul>
+                                        <span class='money'>￥98.0-￥100.0</span>
+                                    </ul>
+                                    <ul>
+                                        <button>快速充值</button>
+                                    </ul>
+
+                                </div>
+                                <br>
+                                <a href="#" class="solgin"> 抢90减50元话费券</a>
+                                <!--  -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+    </div>
+    <!-- 楼层开始 -->
+    <div class="floors">
+        <div class="sk">
+            <div class="sk_inner">
+                <div class="sk_hd">
+                    <a href="#" class="sk_hd_lk">
+                        <div class="sk_tit">京东秒杀</div>
+                        <div class="sk_subtit">FLASH DEALS</div>
+                        <i class="sk_ico"></i>
+                        <div class="sk_desc">本场距离结束还剩</div>
+                        <div class="sk_cd">
+                            <div class="cd">
+                                <div class="cd_item cd_day">
+                                <span class="cd_item_txt day">00</span>
+                                </div>
+                                <div class="cd_item cd_hour">
+                                <span class="cd_item_txt hour">1</span>
+                                </div>
+                                <div class="cd_item cd_minute">
+                                <span class="cd_item_txt minutes">1</span>
+                                </div>
+                                <div class="cd_item cd_second">
+                                <span class="cd_item_txt seconds">1</span>
+                                </div>
+                            </div>
+                        </div>
+
+                    </a>
+                </div>
+                <div class="sk_bd">
+                <!-- 死亡轮播图 -->
+                    <div class="sk_list">
+                        <div class="sk_list_inner" style="overflow:hidden">
+                            <div class="slider_list" >
+                                <ul class="slider_lister">
+                                    <li class="list_item">
+                                    <div class="bao">
+                                        <div class="item_img">
+                                            <img src="img/swlb01.png">
+                                            <p class="sk_item_name">维达(Vinda) 抽纸 超韧3层130抽软抽*24包纸巾(小规格) 整箱销售</p>
+
+                                            <div class="sk_item_price"><span class="mod_price sk_item_price_new"><i>¥</i><span>61.80</span></span><span class="mod_price sk_item_price_origin"><i>¥</i><span>99.00</span></span></div>
+                                        </div>
+                                    </div>
+                                    <div class="bao">
+                                        <div class="item_img">
+                                            <img src="img/swlb01.png">
+                                            <p class="sk_item_name">维达(Vinda) 抽纸 超韧3层130抽软抽*24包纸巾(小规格) 整箱销售</p>
+
+                                            <div class="sk_item_price"><span class="mod_price sk_item_price_new"><i>¥</i><span>61.80</span></span><span class="mod_price sk_item_price_origin"><i>¥</i><span>99.00</span></span></div>
+                                        </div>
+                                    </div>
+                                    <div class="bao">
+                                        <div class="item_img">
+                                            <img src="img/swlb01.png">
+                                            <p class="sk_item_name">维达(Vinda) 抽纸 超韧3层130抽软抽*24包纸巾(小规格) 整箱销售</p>
+
+                                            <div class="sk_item_price"><span class="mod_price sk_item_price_new"><i>¥</i><span>61.80</span></span><span class="mod_price sk_item_price_origin"><i>¥</i><span>99.00</span></span></div>
+                                        </div>
+                                    </div>
+                                    <div class="bao">
+                                        <div class="item_img">
+                                            <img src="img/swlb01.png">
+                                            <p class="sk_item_name">维达(Vinda) 抽纸 超韧3层130抽软抽*24包纸巾(小规格) 整箱销售</p>
+
+                                            <div class="sk_item_price"><span class="mod_price sk_item_price_new"><i>¥</i><span>61.80</span></span><span class="mod_price sk_item_price_origin"><i>¥</i><span>99.00</span></span></div>
+                                        </div>
+                                    </div>
+                                    </li>
+                                    <li class="list_item">
+                                    <div class="bao">
+                                        <div class="item_img">
+                                            <img src="img/swlb02.png">
+                                            <p class="sk_item_name">维达(Vinda) 抽纸 超韧3层130抽软抽*24包纸巾(小规格) 整箱销售</p>
+
+                                            <div class="sk_item_price"><span class="mod_price sk_item_price_new"><i>¥</i><span>61.80</span></span><span class="mod_price sk_item_price_origin"><i>¥</i><span>99.00</span></span></div>
+                                        </div>
+                                    </div>
+                                    <div class="bao">
+                                        <div class="item_img">
+                                            <img src="img/swlb02.png">
+                                            <p class="sk_item_name">维达(Vinda) 抽纸 超韧3层130抽软抽*24包纸巾(小规格) 整箱销售</p>
+
+                                            <div class="sk_item_price"><span class="mod_price sk_item_price_new"><i>¥</i><span>61.80</span></span><span class="mod_price sk_item_price_origin"><i>¥</i><span>99.00</span></span></div>
+                                        </div>
+                                    </div>
+                                    <div class="bao">
+                                        <div class="item_img">
+                                            <img src="img/swlb02.png">
+                                            <p class="sk_item_name">维达(Vinda) 抽纸 超韧3层130抽软抽*24包纸巾(小规格) 整箱销售</p>
+
+                                            <div class="sk_item_price"><span class="mod_price sk_item_price_new"><i>¥</i><span>61.80</span></span><span class="mod_price sk_item_price_origin"><i>¥</i><span>99.00</span></span></div>
+                                        </div>
+                                    </div>
+                                    <div class="bao">
+                                        <div class="item_img">
+                                            <img src="img/swlb02.png">
+                                            <p class="sk_item_name">维达(Vinda) 抽纸 超韧3层130抽软抽*24包纸巾(小规格) 整箱销售</p>
+
+                                            <div class="sk_item_price"><span class="mod_price sk_item_price_new"><i>¥</i><span>61.80</span></span><span class="mod_price sk_item_price_origin"><i>¥</i><span>99.00</span></span></div>
+                                        </div>
+                                    </div>
+                                    </li>
+                                    <li class="list_item">
+                                    <div class="bao">
+                                        <div class="item_img">
+                                            <img src="img/swlb03.png">
+                                            <p class="sk_item_name">维达(Vinda) 抽纸 超韧3层130抽软抽*24包纸巾(小规格) 整箱销售</p>
+
+                                            <div class="sk_item_price"><span class="mod_price sk_item_price_new"><i>¥</i><span>61.80</span></span><span class="mod_price sk_item_price_origin"><i>¥</i><span>99.00</span></span></div>
+                                        </div>
+                                    </div>
+                                    <div class="bao">
+                                        <div class="item_img">
+                                            <img src="img/swlb01.png">
+                                            <p class="sk_item_name">维达(Vinda) 抽纸 超韧3层130抽软抽*24包纸巾(小规格) 整箱销售</p>
+
+                                            <div class="sk_item_price"><span class="mod_price sk_item_price_new"><i>¥</i><span>61.80</span></span><span class="mod_price sk_item_price_origin"><i>¥</i><span>99.00</span></span></div>
+                                        </div>
+                                    </div>
+                                    <div class="bao">
+                                        <div class="item_img">
+                                            <img src="img/swlb01.png">
+                                            <p class="sk_item_name">维达(Vinda) 抽纸 超韧3层130抽软抽*24包纸巾(小规格) 整箱销售</p>
+
+                                            <div class="sk_item_price"><span class="mod_price sk_item_price_new"><i>¥</i><span>61.80</span></span><span class="mod_price sk_item_price_origin"><i>¥</i><span>99.00</span></span></div>
+                                        </div>
+                                    </div>
+                                    <div class="bao">
+                                        <div class="item_img">
+                                            <img src="img/swlb01.png">
+                                            <p class="sk_item_name">维达(Vinda) 抽纸 超韧3层130抽软抽*24包纸巾(小规格) 整箱销售</p>
+
+                                            <div class="sk_item_price"><span class="mod_price sk_item_price_new"><i>¥</i><span>61.80</span></span><span class="mod_price sk_item_price_origin"><i>¥</i><span>99.00</span></span></div>
+                                        </div>
+                                    </div>
+                                    </li><li class="list_item">
+                                    <div class="bao">
+                                        <div class="item_img">
+                                            <img src="img/swlb04.png">
+                                            <p class="sk_item_name">维达(Vinda) 抽纸 超韧3层130抽软抽*24包纸巾(小规格) 整箱销售</p>
+
+                                            <div class="sk_item_price"><span class="mod_price sk_item_price_new"><i>¥</i><span>61.80</span></span><span class="mod_price sk_item_price_origin"><i>¥</i><span>99.00</span></span></div>
+                                        </div>
+                                    </div>
+                                    <div class="bao">
+                                        <div class="item_img">
+                                            <img src="img/swlb04.png">
+                                            <p class="sk_item_name">维达(Vinda) 抽纸 超韧3层130抽软抽*24包纸巾(小规格) 整箱销售</p>
+
+                                            <div class="sk_item_price"><span class="mod_price sk_item_price_new"><i>¥</i><span>61.80</span></span><span class="mod_price sk_item_price_origin"><i>¥</i><span>99.00</span></span></div>
+                                        </div>
+                                    </div>
+                                    <div class="bao">
+                                        <div class="item_img">
+                                            <img src="img/swlb04.png">
+                                            <p class="sk_item_name">维达(Vinda) 抽纸 超韧3层130抽软抽*24包纸巾(小规格) 整箱销售</p>
+
+                                            <div class="sk_item_price"><span class="mod_price sk_item_price_new"><i>¥</i><span>61.80</span></span><span class="mod_price sk_item_price_origin"><i>¥</i><span>99.00</span></span></div>
+                                        </div>
+                                    </div>
+                                    <div class="bao">
+                                        <div class="item_img">
+                                            <img src="img/swlb04.png">
+                                            <p class="sk_item_name">维达(Vinda) 抽纸 超韧3层130抽软抽*24包纸巾(小规格) 整箱销售</p>
+
+                                            <div class="sk_item_price"><span class="mod_price sk_item_price_new"><i>¥</i><span>61.80</span></span><span class="mod_price sk_item_price_origin"><i>¥</i><span>99.00</span></span></div>
+                                        </div>
+                                    </div>
+                                    </li>
+
+                                </ul>
+
+
+
+
+
+
+
+                            </div>
+                            <div class="prev"><</div>
+                            <div class="next">></div>
+                        </div>
+                    </div>
+                    <!-- 死亡轮播图二号 还要自己动 -->
+                    <div class="sk_chn">
+                        <div class="sk_chn_inner">
+                            <div class="chn_list" style="overflow:hidden">
+                                <ul id="chn_list_ul">
+                                    <li class="swlb_1.0"><img src="img/swlb06.png"></li>
+                                    <li class="swlb_1.0"><img src="img/swlb07.png"></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 三连死亡轮播图 -->
+    <div id="J_corechn1">
+        <div class="corechn1_inner">
+            <div class="box tp">
+                <div class="box_hd">
+                    <a href="#" class="box_hd_lk">
+                        <h3 class="box_tit">排行榜</h3>
+                        <i class="box_hd_arrow"></i>
+                        <span class="box_subtit">专属你的购物指南</span>
+                    </a>
+                </div>
+                <div class="box_bd">
+                    <div class="top_inner">
+                        <div class="top_tab">
+                            <div class="tab_head">
+                                <div class="tab_head_item">休闲食品</div>
+                                <div class="tab_head_item">手机通讯</div>
+                                <div class="tab_head_item">饮料冲调</div>
+                                <div class="tab_head_item">海鲜水产</div>
+                                <div class="tab_head_item">厨房小电</div>
+                            </div>
+                            <div class="tab_body">
+                                <div class="tab_body_item" style="display:block">
+                                    <div class="slider top_wrapper">
+                                        <div class="slider_list1" >
+                                            <div class="list1_no1 top_list">
+                                                <div class="inner_no1">
+                                                    <div class="lazyimg lazyimg_loaded top_item_img">
+                                                        <img src="img/qdd.jpg">
+
+                                                    </div>
+                                                    <span class="top_item_rank top_item_rank_1">1</span>
+                                                    <span class="top_item_name">【沃尔玛】趣多多 香脆曲奇缤纷逗巧克力味 255g</span>
+                                                </div>
+                                                <div class="inner_no1">
+                                                    <div class="lazyimg lazyimg_loaded top_item_img">
+                                                        <img src="img/binggan.jpg">
+
+                                                    </div>
+                                                    <span class="top_item_rank top_item_rank_1" style="color:#ed713d;">2</span>
+                                                    <span class="top_item_name">【沃尔玛】趣多多 香脆曲奇缤纷逗巧克力味 255g</span>
+                                                </div>
+                                                <div class="inner_no1">
+                                                    <div class="lazyimg lazyimg_loaded top_item_img">
+                                                        <img src="img/binggan.jpg">
+
+                                                    </div>
+                                                    <span class="top_item_rank top_item_rank_1" style="color:#ccc;">3</span>
+                                                    <span class="top_item_name">【沃尔玛】趣多多 香脆曲奇缤纷逗巧克力味 255g</span>
+                                                </div>
+                                            </div>
+                                            <div class="list1_no2 top_list">
+                                                <div class="inner_no1">
+                                                    <div class="lazyimg lazyimg_loaded top_item_img">
+                                                        <img src="img/qdd.jpg">
+
+                                                    </div>
+                                                    <span class="top_item_rank top_item_rank_1">4</span>
+                                                    <span class="top_item_name">【沃尔玛】趣多多 香脆曲奇缤纷逗巧克力味 255g</span>
+                                                </div>
+                                                <div class="inner_no1">
+                                                    <div class="lazyimg lazyimg_loaded top_item_img">
+                                                        <img src="img/binggan.jpg">
+
+                                                    </div>
+                                                    <span class="top_item_rank top_item_rank_1" style="color:#ed713d;">5</span>
+                                                    <span class="top_item_name">【沃尔玛】趣多多 香脆曲奇缤纷逗巧克力味 255g</span>
+                                                </div>
+                                                <div class="inner_no1">
+                                                    <div class="lazyimg lazyimg_loaded top_item_img">
+                                                        <img src="img/binggan.jpg">
+
+                                                    </div>
+                                                    <span class="top_item_rank top_item_rank_1" style="color:#ccc;">6</span>
+                                                    <span class="top_item_name">【沃尔玛】趣多多 香脆曲奇缤纷逗巧克力味 255g</span>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div class="slider_indicators">
+                                        <i clstag="h|keycount|core|ranking_s01" class="slider_indicators_btn slider_indicators_btn_active"></i>
+                                        <i clstag="h|keycount|core|ranking_s02" class="slider_indicators_btn slider_indicators_btn_last "></i>
+                                    </div>
+                                </div>
+                                <div class="tab_body_item" style="display:none">
+                                    <div class="slider top_wrapper">
+                                        <div class="slider_list1" >
+                                            <div class="list1_no1 top_list">
+                                                <div class="inner_no1">
+                                                    <div class="lazyimg lazyimg_loaded top_item_img">
+                                                        <img src="img/qdd.jpg">
+
+                                                    </div>
+                                                    <span class="top_item_rank top_item_rank_1">1</span>
+                                                    <span class="top_item_name">【沃尔玛】一点都不想</span>
+                                                </div>
+                                                <div class="inner_no1">
+                                                    <div class="lazyimg lazyimg_loaded top_item_img">
+                                                        <img src="img/binggan.jpg">
+
+                                                    </div>
+                                                    <span class="top_item_rank top_item_rank_1" style="color:#ed713d;">2</span>
+                                                    <span class="top_item_name">【沃尔玛】好累啊</span>
+                                                </div>
+                                                <div class="inner_no1">
+                                                    <div class="lazyimg lazyimg_loaded top_item_img">
+                                                        <img src="img/binggan.jpg">
+
+                                                    </div>
+                                                    <span class="top_item_rank top_item_rank_1" style="color:#ccc;">3</span>
+                                                    <span class="top_item_name">【沃尔玛】要死 了</span>
+                                                </div>
+                                            </div>
+                                            <div class="list1_no2 top_list">
+                                                <div class="inner_no1">
+                                                    <div class="lazyimg lazyimg_loaded top_item_img">
+                                                        <img src="img/qdd.jpg">
+
+                                                    </div>
+                                                    <span class="top_item_rank top_item_rank_1">4</span>
+                                                    <span class="top_item_name">【沃尔玛】趣多多 香脆曲奇缤纷逗巧克力味 255g</span>
+                                                </div>
+                                                <div class="inner_no1">
+                                                    <div class="lazyimg lazyimg_loaded top_item_img">
+                                                        <img src="img/binggan.jpg">
+
+                                                    </div>
+                                                    <span class="top_item_rank top_item_rank_1" style="color:#ed713d;">5</span>
+                                                    <span class="top_item_name">【沃尔玛】趣多多 香脆曲奇缤纷逗巧克力味 255g</span>
+                                                </div>
+                                                <div class="inner_no1">
+                                                    <div class="lazyimg lazyimg_loaded top_item_img">
+                                                        <img src="img/binggan.jpg">
+
+                                                    </div>
+                                                    <span class="top_item_rank top_item_rank_1" style="color:#ccc;">6</span>
+                                                    <span class="top_item_name">【沃尔玛】趣多多 香脆曲奇缤纷逗巧克力味 255g</span>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div class="slider_indicators">
+                                        <i clstag="h|keycount|core|ranking_s01" class="slider_indicators_btn slider_indicators_btn_active"></i>
+                                        <i clstag="h|keycount|core|ranking_s02" class="slider_indicators_btn slider_indicators_btn_last "></i>
+                                    </div></div>
+                                <div class="tab_body_item" style="display:none">
+                                    <div class="slider top_wrapper">
+                                        <div class="slider_list1" >
+                                            <div class="list1_no1 top_list">
+                                                <div class="inner_no1">
+                                                    <div class="lazyimg lazyimg_loaded top_item_img">
+                                                        <img src="img/qdd.jpg">
+
+                                                    </div>
+                                                    <span class="top_item_rank top_item_rank_1">1</span>
+                                                    <span class="top_item_name">【沃尔玛】京东首页毫无人性</span>
+                                                </div>
+                                                <div class="inner_no1">
+                                                    <div class="lazyimg lazyimg_loaded top_item_img">
+                                                        <img src="img/binggan.jpg">
+
+                                                    </div>
+                                                    <span class="top_item_rank top_item_rank_1" style="color:#ed713d;">2</span>
+                                                    <span class="top_item_name">【沃尔玛】真的难做</span>
+                                                </div>
+                                                <div class="inner_no1">
+                                                    <div class="lazyimg lazyimg_loaded top_item_img">
+                                                        <img src="img/binggan.jpg">
+
+                                                    </div>
+                                                    <span class="top_item_rank top_item_rank_1" style="color:#ccc;">3</span>
+                                                    <span class="top_item_name">【沃尔玛】要哭了</span>
+                                                </div>
+                                            </div>
+                                            <div class="list1_no2 top_list">
+                                                <div class="inner_no1">
+                                                    <div class="lazyimg lazyimg_loaded top_item_img">
+                                                        <img src="img/qdd.jpg">
+
+                                                    </div>
+                                                    <span class="top_item_rank top_item_rank_1">4</span>
+                                                    <span class="top_item_name">【沃尔玛】趣多多 香脆曲奇缤纷逗巧克力味 255g</span>
+                                                </div>
+                                                <div class="inner_no1">
+                                                    <div class="lazyimg lazyimg_loaded top_item_img">
+                                                        <img src="img/binggan.jpg">
+
+                                                    </div>
+                                                    <span class="top_item_rank top_item_rank_1" style="color:#ed713d;">5</span>
+                                                    <span class="top_item_name">【沃尔玛】趣多多 香脆曲奇缤纷逗巧克力味 255g</span>
+                                                </div>
+                                                <div class="inner_no1">
+                                                    <div class="lazyimg lazyimg_loaded top_item_img">
+                                                        <img src="img/binggan.jpg">
+
+                                                    </div>
+                                                    <span class="top_item_rank top_item_rank_1" style="color:#ccc;">6</span>
+                                                    <span class="top_item_name">【沃尔玛】趣多多 香脆曲奇缤纷逗巧克力味 255g</span>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div class="slider_indicators">
+                                        <i clstag="h|keycount|core|ranking_s01" class="slider_indicators_btn slider_indicators_btn_active"></i>
+                                        <i clstag="h|keycount|core|ranking_s02" class="slider_indicators_btn slider_indicators_btn_last "></i>
+                                    </div></div>
+                                <div class="tab_body_item" style="display:none">
+                                    <div class="slider top_wrapper">
+                                        <div class="slider_list1" >
+                                            <div class="list1_no1 top_list">
+                                                <div class="inner_no1">
+                                                    <div class="lazyimg lazyimg_loaded top_item_img">
+                                                        <img src="img/qdd.jpg">
+
+                                                    </div>
+                                                    <span class="top_item_rank top_item_rank_1">1</span>
+                                                    <span class="top_item_name">【沃尔玛】趣多多 香脆曲奇缤纷逗巧克力味 255g</span>
+                                                </div>
+                                                <div class="inner_no1">
+                                                    <div class="lazyimg lazyimg_loaded top_item_img">
+                                                        <img src="img/binggan.jpg">
+
+                                                    </div>
+                                                    <span class="top_item_rank top_item_rank_1" style="color:#ed713d;">2</span>
+                                                    <span class="top_item_name">【沃尔玛】趣多多 香脆曲奇缤纷逗巧克力味 255g</span>
+                                                </div>
+                                                <div class="inner_no1">
+                                                    <div class="lazyimg lazyimg_loaded top_item_img">
+                                                        <img src="img/binggan.jpg">
+
+                                                    </div>
+                                                    <span class="top_item_rank top_item_rank_1" style="color:#ccc;">3</span>
+                                                    <span class="top_item_name">【沃尔玛】趣多多 香脆曲奇缤纷逗巧克力味 255g</span>
+                                                </div>
+                                            </div>
+                                            <div class="list1_no2 top_list">
+                                                <div class="inner_no1">
+                                                    <div class="lazyimg lazyimg_loaded top_item_img">
+                                                        <img src="img/qdd.jpg">
+
+                                                    </div>
+                                                    <span class="top_item_rank top_item_rank_1">4</span>
+                                                    <span class="top_item_name">【沃尔玛】趣多多 香脆曲奇缤纷逗巧克力味 255g</span>
+                                                </div>
+                                                <div class="inner_no1">
+                                                    <div class="lazyimg lazyimg_loaded top_item_img">
+                                                        <img src="img/binggan.jpg">
+
+                                                    </div>
+                                                    <span class="top_item_rank top_item_rank_1" style="color:#ed713d;">5</span>
+                                                    <span class="top_item_name">【沃尔玛】趣多多 香脆曲奇缤纷逗巧克力味 255g</span>
+                                                </div>
+                                                <div class="inner_no1">
+                                                    <div class="lazyimg lazyimg_loaded top_item_img">
+                                                        <img src="img/binggan.jpg">
+
+                                                    </div>
+                                                    <span class="top_item_rank top_item_rank_1" style="color:#ccc;">6</span>
+                                                    <span class="top_item_name">【沃尔玛】趣多多 香脆曲奇缤纷逗巧克力味 255g</span>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div class="slider_indicators">
+                                        <i clstag="h|keycount|core|ranking_s01" class="slider_indicators_btn slider_indicators_btn_active"></i>
+                                        <i clstag="h|keycount|core|ranking_s02" class="slider_indicators_btn slider_indicators_btn_last "></i>
+                                    </div></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="box daily">
+                <div class="box_hd">
+                    <a href="#" class="box_hd_lk">
+                        <h3 class="box_tit">会买专辑</h3>
+                        <i class="box_hd_arrow"></i>
+                        <span class="box_subtit">甄选优质好物</span>
+                    </a>
+
+                </div>
+                <div class="box_bd">
+                    <div class="slider daily_slider">
+                        <div class="slider_list11" style="overflow:hidden">
+                            <div class="slider_wrapper">
+                            <a href="#" class="slider_item daily_lk">
+                                <img src="img/middleswlb.jpg">
+
+                                <div class="item_imgs">
+                                <img src="img/watch.jpg">
+                                <img src="img/watch.jpg">
+                                <img src="img/watch.jpg">
+                                </div>
+                                <h3 class="daily_title">
+                                <span class="daily_title_txt" title="机械打败时间魔法，对表诠释永恒">机械打败时间魔法，对表诠释永恒
+                                </span>
+                                </h3>
+                                <div class="daily_subtit" title="有时，人们常说照片是能将美好的瞬间变为永恒的魔法，其实并不然，想把恋人间的点点滴滴都收入时间囊中，拥有一对情侣机械手表就够了，其精确的机械设置，能让你拥有德国人般有条不紊的精准提示，多少恋爱纪念日都不会遗漏，让爱情时刻保鲜，用滴答纪念永恒才是长久之选。">有时，人们常说照片是能将美好的瞬间变为永恒的魔法，其实并不然，想把恋人间的点点滴滴都收入时间囊中，拥有一对情侣机械手表就够了，其精确的机械设置，能让你拥有德国人般有条不紊的精准提示，多少恋爱纪念日都不会遗漏，让爱情时刻保鲜，用滴答纪念永恒才是长久之选。</div>
+
+                            </a>
+                            <a href="#" class="slider_item daily_lk">
+                                <img src="img/bike.jpg">
+
+                                <div class="item_imgs">
+                                <img src="img/watch.jpg">
+                                <img src="img/watch.jpg">
+                                <img src="img/watch.jpg">
+                                </div>
+                                <h3 class="daily_title">
+                                <span class="daily_title_txt" title="机械打败时间魔法，对表诠释永恒">机械打败时间魔法，对表诠释永恒
+                                </span>
+                                </h3>
+                                <div class="daily_subtit" title="有时，人们常说照片是能将美好的瞬间变为永恒的魔法，其实并不然，想把恋人间的点点滴滴都收入时间囊中，拥有一对情侣机械手表就够了，其精确的机械设置，能让你拥有德国人般有条不紊的精准提示，多少恋爱纪念日都不会遗漏，让爱情时刻保鲜，用滴答纪念永恒才是长久之选。">有时，人们常说照片是能将美好的瞬间变为永恒的魔法，其实并不然，想把恋人间的点点滴滴都收入时间囊中，拥有一对情侣机械手表就够了，其精确的机械设置，能让你拥有德国人般有条不紊的精准提示，多少恋爱纪念日都不会遗漏，让爱情时刻保鲜，用滴答纪念永恒才是长久之选。</div>
+                            </a>
+                            <a href="#" class="slider_item daily_lk">
+                                <img src="img/music.jpg">
+
+                                <div class="item_imgs">
+                                <img src="img/watch.jpg">
+                                <img src="img/watch.jpg">
+                                <img src="img/watch.jpg">
+                                </div>
+                                <h3 class="daily_title">
+                                <span class="daily_title_txt" title="机械打败时间魔法，对表诠释永恒">机械打败时间魔法，对表诠释永恒
+                                </span>
+                                </h3>
+                                <div class="daily_subtit" title="有时，人们常说照片是能将美好的瞬间变为永恒的魔法，其实并不然，想把恋人间的点点滴滴都收入时间囊中，拥有一对情侣机械手表就够了，其精确的机械设置，能让你拥有德国人般有条不紊的精准提示，多少恋爱纪念日都不会遗漏，让爱情时刻保鲜，用滴答纪念永恒才是长久之选。">有时，人们常说照片是能将美好的瞬间变为永恒的魔法，其实并不然，想把恋人间的点点滴滴都收入时间囊中，拥有一对情侣机械手表就够了，其精确的机械设置，能让你拥有德国人般有条不紊的精准提示，多少恋爱纪念日都不会遗漏，让爱情时刻保鲜，用滴答纪念永恒才是长久之选。</div>
+                            </a>
+
+                            </div>
+
+                        </div>
+
+
+
+                        <div class="xleft"><</div>
+                        <div class="xright">></div>
+                    </div>
+                </div>
+            </div>
+            <div class="box box_last">
+                <div class="box_hd">
+                    <a class="box_hd_lk">
+                        <h3 class="box_tit">领券中心</h3>
+                        <i class="box_hd_arrow"></i>
+                        <span class="box_subtit">前往领券中心</span>
+                    </a>
+                </div>
+                <div class="box_bd">
+                    <div class="coupon_inner">
+                        <div class="ccc">
+                            <div class="ccc_wrapper">
+                                <div class="slider_item coupon_list" style="display:block">
+                                    <img src="img/swlb08.png">
+                                </div>
+                                <div class="slider_item coupon_list" style="display:none">
+                                    <img src="img/swlb09.png">
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="pin">
+                        <i class='no1 aaa'></i>
+                        <i class='no2'></i>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 倒数第二轮播图 -->
+    <div id="J_corechn2">
+        <div class="grid_c1 corechn2_inner">
+            <div class="box11 mime">
+                <div class="box_hd"><a class="box_hd_lk" href="//jdiscover.jd.com" target="_blank" clstag="h|keycount|core|finding_a"><h3 class="box_tit">觅me</h3><i class="box_hd_arrow"></i><span class="box_subtit">探索生活</span></a></div>
+                <div class="swlb007">
+                    <div class="inner007">
+                        <img src="img/swlb10.png">
+                        <img src="img/swlb11.png">
+
+                        <img src="img/swlb12.png">
+
+                    </div>
+
+                </div>
+                <div id="right007">></div>
+                <div id="left007"><</div>
+                <div id="poin007">
+                    <ul>
+                        <li class="lis"></li>
+                        <li class="lis"></li>
+                        <li class="lis"></li>
+                    </ul>
+                </div>
+
+
+            </div>
+            <div class="box11 chosen">
+                <div class="box_hd">
+                    <a class="box_hd_lk">
+                        <h3 class="box_tit">发现好货</h3>
+                        <i class="box_hd_arrow"></i>
+                        <span class="box_subtit">发现品质生活</span>
+                    </a>
+                </div>
+                <div class="box_bd">
+                    <div class="chosen_wrapper">
+                        <ul class="chosen_list clearfix">
+                            <li class="chosen_item">
+                                <a href="#" class="chosen_item_lk">
+                                    <div class="chosen_item_img">
+                                        <img src="img/watch2.png">
+                                    </div>
+                                    <span class="chosen_item_tit">TISSOT鲁尔防水手表</span>
+                                    <span class="chosen_item_subtit">商务表，更显精英本色，瑞士原装进口，个人魅力从细节展现，天梭立足传统，发展创新，透底表背，简约大气，经典而且时尚，操作起来方便，质感加倍，蝴蝶扣表扣，方便美观，观赏性强。</span>
+                                </a>
+                            </li>
+                            <li class="chosen_item">
+                                <a href="#" class="chosen_item_lk">
+                                    <div class="chosen_item_img">
+                                        <img src="img/watch2.png">
+                                    </div>
+                                    <span class="chosen_item_tit">TISSOT鲁尔防水手表</span>
+                                    <span class="chosen_item_subtit">商务表，更显精英本色，瑞士原装进口，个人魅力从细节展现，天梭立足传统，发展创新，透底表背，简约大气，经典而且时尚，操作起来方便，质感加倍，蝴蝶扣表扣，方便美观，观赏性强。</span>
+                                </a>
+                            </li>
+                            <li class="chosen_item">
+                                <a href="#" class="chosen_item_lk">
+                                    <div class="chosen_item_img">
+                                        <img src="img/watch2.png">
+                                    </div>
+                                    <span class="chosen_item_tit">TISSOT鲁尔防水手表</span>
+                                    <span class="chosen_item_subtit">商务表，更显精英本色，瑞士原装进口，个人魅力从细节展现，天梭立足传统，发展创新，透底表背，简约大气，经典而且时尚，操作起来方便，质感加倍，蝴蝶扣表扣，方便美观，观赏性强。</span>
+                                </a>
+                            </li>
+                            <li class="chosen_item">
+                                <a href="#" class="chosen_item_lk">
+                                    <div class="chosen_item_img">
+                                        <img src="img/watch2.png">
+                                    </div>
+                                    <span class="chosen_item_tit">TISSOT鲁尔防水手表</span>
+                                    <span class="chosen_item_subtit">商务表，更显精英本色，瑞士原装进口，个人魅力从细节展现，天梭立足传统，发展创新，透底表背，简约大气，经典而且时尚，操作起来方便，质感加倍，蝴蝶扣表扣，方便美观，观赏性强。</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="box11 masshop box_last">
+                <div class="box_hd">
+                    <a class="box_hd_lk">
+                        <h3 class="box_tit">会逛</h3>
+                        <i class="box_hd_arrow"></i>
+                        <span class="box_subtit">你想逛的都在这里</span>
+                    </a>
+                </div>
+                <div class="box_bd">
+                    <div class="masshop_cover">
+                        <a href="#" class="masshop_lk">
+                            <img src="img/shuit.png">
+                        </a>
+                    </div>
+                    <div class="masshop_list">
+                        <div class="masshop_item">
+                            <a href="#" class="masshop_lk">
+                                <img src="img/bag.png">
+                            </a>
+                        </div>
+                        <div class="masshop_item">
+                            <a href="#" class="masshop_lk">
+                                <img src="img/bag.png">
+                            </a>
+                        </div>
+                        <div class="masshop_item">
+                            <a href="#" class="masshop_lk">
+                                <img src="img/bag.png">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 终于开始静态布局 -->
+    <!-- 时尚达人 -->
+    <div id="J_vogue">
+        <div class="floorhd">
+            <div class="grid_c2 floorhd_inner">
+                <h3 class="floorhd_tit">时尚达人</h3>
+            </div>
+        </div>
+        <div class="chn">
+            <div class="grid_c1 clearfix">
+                <div class="box sort">
+                    <div class="box_hd">
+                        <a class="box_hd_lk">
+                        <h3 class="box_tit">运动户外</h3>
+                        <i class="box_hd_arrow"></i>
+                        <span class="box_subtit">玩所未玩</span>
+                        </a>
+                    </div>
+                    <div class="box_bd">
+                        <div class="sort_wrapper clearfix">
+                            <a href="#" class="sort_large">
+                                <img src="img/shot1.jpg">
+                            </a>
+                            <a href="#" class="sort_middle">
+                                <img src="img/chong.jpg">
+                            </a>
+                            <a href="#" class="sort_middle">
+                                <img src="img/lun.jpg">
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="box sort">
+                    <div class="box_hd">
+                        <a class="box_hd_lk">
+                            <h3 class="box_tit">魅力装扮</h3>
+                            <i class="box_hd_arrow"></i>
+                            <span class="box_subtit">精致生活</span>
+                        </a>
+                    </div>
+                    <div class="box_bd">
+                        <div class="sort_wrapper clearfix">
+                            <a href="#" class="sort_large">
+                                <img src="img/hufu.jpg">
+                            </a>
+                            <a href="#" class="sort_middle">
+                                <img src="img/ghqj.jpg">
+                            </a>
+                            <a href="#" class="sort_middle">
+                                <img src="img/pjyx.jpg">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="box act box_last">
+                    <div class="act_inner">
+                        <a href="#" class="act_lk">
+                            <img src="img/buzhi.jpg">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="chn">
+            <div class="grid_c1 clearfix">
+                <div class="box act">
+                    <div class="act_inner">
+                        <a href="#" class="act_lk">
+                            <img src="img/man.jpg">
+                        </a>
+                    </div>
+                </div>
+                <div class="box treasure">
+                    <a href="#" class="treasure_scene">
+                        <div class="treasure_scene_hd">
+                            <h4 class="treasure_scene_tit">原宿少年 · 
+                                <span class="treasure_scene_subtit">简单自然
+                                </span>
+                            </h4>
+                        </div>
+                        <div class="treasure_scene_bd">
+                            <ul class="treasure_list">
+                                <li class="treasure_item">
+                                    <img src="img/xie.jpg">
+                                </li>
+                                <li class="treasure_item">
+                                <img src="img/xie01.jpg">
+                                </li>
+                            </ul>
+                        </div>
+                    </a>
+                    <a href="#" class="treasure_scene">
+                        <div class="treasure_scene_hd">
+                            <h4 class="treasure_scene_tit">足下型靴 · 
+                                <span class="treasure_scene_subtit">男神必备型靴
+                                </span>
+                            </h4>
+                        </div>
+                        <div class="treasure_scene_bd">
+                            <ul class="treasure_list">
+                                <li class="treasure_item">
+                                    <img src="img/xie.jpg">
+                                </li>
+                                <li class="treasure_item">
+                                <img src="img/xie01.jpg">
+                                </li>
+                            </ul>
+                        </div>
+                    </a>
+                </div>
+                <div class="box shop shop_act shop box_last">
+                    <div class="shop_wrapper">
+                        <a href="#" class="shop_info">
+                            <div class="lazyimg lazyimg_loaded shop_logo">
+                                <img src="img/logo1.jpg">
+                            </div>
+                            <div class="shop_name">
+                                <span class="shop_name_txt">COACH京东自营店</span>
+                            </div>
+                        </a>
+                        <div class="shop_middle">
+                            <a href="#">
+                                <img src="img/bag01.jpg">
+                            </a>
+                        </div>
+                        <div class="shop_small clearfix">
+                            <a href="#" class="shop_small_item">
+                                <img src="img/bag02.jpg">
+                            </a>
+                            <a href="#" class="shop_small_item">
+                                <img src="img/bag02.jpg">
+                            </a>
+                            <a href="#" class="shop_small_item">
+                                <img src="img/bag02.jpg">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="chn">
+            <div class="grid_c1 clearfix">
+                <div class="box tactic">
+                    <div class="box_hd">
+                        <a class="box_hd_lk">
+                            <h3 class="box_tit">京东服饰</h3>
+                            <i class="box_hd_arrow"></i>
+                            <span class="box_subtit">尽享时尚生活</span>
+                        </a>
+                    </div>
+                    <div class="box_bd">
+                        <div class="tactic_cover">
+                            <a href="#">
+                                <img src="img/yifu.jpg">
+                            </a>
+                        </div>
+                        <div class="tactic_list">
+                            <div class="tactic_item">
+                                <a href="#">
+                                    <img src="img/gen.jpg">
+                                </a>
+                            </div>
+                            <div class="tactic_item">
+                                <a href="#">
+                                    <img src="img/gen.jpg">
+                                </a>
+                            </div>
+                            <div class="tactic_item">
+                                <a href="#">
+                                    <img src="img/gen.jpg">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="box sort">
+                    <div class="box_hd">
+                        <a class="box_hd_lk">
+                            <h3 class="box_tit">我型我塑</h3>
+                            <i class="box_hd_arrow"></i>
+                            <span class="box_subtit">时尚有我 品质衣橱</span>
+                        </a>
+                    </div>
+                    <div class="box_bd">
+                        <div class="sort_wrapper clearfix">
+                            <a href="#" class="sort_large">
+                                <img src="img/shot1.jpg">
+                            </a>
+                            <a href="#" class="sort_middle">
+                                <img src="img/chong.jpg">
+                            </a>
+                            <a href="#" class="sort_middle">
+                                <img src="img/lun.jpg">
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="box act act_multi box_last">
+                    <div class="act_inner">
+                        <a href="#" class="act_lk">
+                            <img src="img/newgoods.jpg">
+                        </a>
+                        <a href="#" class="act_lk">
+                            <img src="img/mianmo.jpg">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+    <!-- 智能先锋 -->
+    <div id="J_vogue">
+        <div class="floorhd">
+            <div class="grid_c2 floorhd_inner">
+                <h3 class="floorhd_tit">智能先锋</h3>
+            </div>
+        </div>
+        <div class="chn">
+            <div class="grid_c1 clearfix">
+                <div class="box sort">
+                    <div class="box_hd">
+                        <a class="box_hd_lk">
+                        <h3 class="box_tit">手机频道</h3>
+                        <i class="box_hd_arrow"></i>
+                        <span class="box_subtit">一个极客的诞生</span>
+                        </a>
+                    </div>
+                    <div class="box_bd">
+                        <div class="sort_wrapper clearfix">
+                            <a href="#" class="sort_large">
+                                <img src="img/shot1.jpg">
+                            </a>
+                            <a href="#" class="sort_middle">
+                                <img src="img/chong.jpg">
+                            </a>
+                            <a href="#" class="sort_middle">
+                                <img src="img/lun.jpg">
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="box sort">
+                    <div class="box_hd">
+                        <a class="box_hd_lk">
+                            <h3 class="box_tit">新品首发</h3>
+                            <i class="box_hd_arrow"></i>
+                            <span class="box_subtit">看新奇好物 必来新品首发</span>
+                        </a>
+                    </div>
+                    <div class="box_bd">
+                        <div class="sort_wrapper clearfix">
+                            <a href="#" class="sort_large">
+                                <img src="img/hufu.jpg">
+                            </a>
+                            <a href="#" class="sort_middle">
+                                <img src="img/ghqj.jpg">
+                            </a>
+                            <a href="#" class="sort_middle">
+                                <img src="img/pjyx.jpg">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="box act box_last">
+                    <div class="act_inner">
+                        <a href="#" class="act_lk">
+                            <img src="img/buzhi.jpg">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="chn">
+            <div class="grid_c1 clearfix">
+                <div class="box act">
+                    <div class="act_inner">
+                        <a href="#" class="act_lk">
+                            <img src="img/man.jpg">
+                        </a>
+                    </div>
+                </div>
+                <div class="box treasure">
+                    <a href="#" class="treasure_scene">
+                        <div class="treasure_scene_hd">
+                            <h4 class="treasure_scene_tit">游戏人生 · 
+                                <span class="treasure_scene_subtit">超酷游戏
+                                </span>
+                            </h4>
+                        </div>
+                        <div class="treasure_scene_bd">
+                            <ul class="treasure_list">
+                                <li class="treasure_item">
+                                    <img src="img/xie.jpg">
+                                </li>
+                                <li class="treasure_item">
+                                <img src="img/xie01.jpg">
+                                </li>
+                            </ul>
+                        </div>
+                    </a>
+                    <a href="#" class="treasure_scene">
+                        <div class="treasure_scene_hd">
+                            <h4 class="treasure_scene_tit">听觉盛宴 · 
+                                <span class="treasure_scene_subtit">不一样的听觉
+                                </span>
+                            </h4>
+                        </div>
+                        <div class="treasure_scene_bd">
+                            <ul class="treasure_list">
+                                <li class="treasure_item">
+                                    <img src="img/xie.jpg">
+                                </li>
+                                <li class="treasure_item">
+                                <img src="img/xie01.jpg">
+                                </li>
+                            </ul>
+                        </div>
+                    </a>
+                </div>
+                <div class="box shop shop_act shop box_last">
+                    <div class="shop_wrapper">
+                        <div class="box_hd">
+                            <a class="box_hd_lk">
+                                <h3 class="box_tit">智能数码</h3>
+                                <i class="box_hd_arrow"></i>
+                                <span class="box_subtit">智能朝货嗨购不停</span>
+                            </a>
+                        </div>
+                        <div class="box_bd">
+                            <div class="sort_wrapper clearfix">
+                                <a href="#" class="sort_large">
+                                    <img src="img/vidio.jpg">
+                                </a>
+                                <a href="#" class="sort_large">
+                                    <img src="img/shouhuan.jpg">
+                                </a>
+                            </div>
+                        </div>
+
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+       <!--  <div class="chn">
+            <div class="grid_c1 clearfix">
+                <div class="box tactic">
+                    <div class="box_hd">
+                        <a class="box_hd_lk">
+                            <h3 class="box_tit">京东服饰</h3>
+                            <i class="box_hd_arrow"></i>
+                            <span class="box_subtit">尽享时尚生活</span>
+                        </a>
+                    </div>
+                    <div class="box_bd">
+                        <div class="tactic_cover">
+                            <a href="#">
+                                <img src="img/yifu.jpg">
+                            </a>
+                        </div>
+                        <div class="tactic_list">
+                            <div class="tactic_item">
+                                <a href="#">
+                                    <img src="img/gen.jpg">
+                                </a>
+                            </div>
+                            <div class="tactic_item">
+                                <a href="#">
+                                    <img src="img/gen.jpg">
+                                </a>
+                            </div>
+                            <div class="tactic_item">
+                                <a href="#">
+                                    <img src="img/gen.jpg">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="box sort">
+                    <div class="box_hd">
+                        <a class="box_hd_lk">
+                            <h3 class="box_tit">我型我塑</h3>
+                            <i class="box_hd_arrow"></i>
+                            <span class="box_subtit">时尚有我 品质衣橱</span>
+                        </a>
+                    </div>
+                    <div class="box_bd">
+                        <div class="sort_wrapper clearfix">
+                            <a href="#" class="sort_large">
+                                <img src="img/shot1.jpg">
+                            </a>
+                            <a href="#" class="sort_middle">
+                                <img src="img/chong.jpg">
+                            </a>
+                            <a href="#" class="sort_middle">
+                                <img src="img/lun.jpg">
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="box act act_multi box_last">
+                    <div class="act_inner">
+                        <a href="#" class="act_lk">
+                            <img src="img/newgoods.jpg">
+                        </a>
+                        <a href="#" class="act_lk">
+                            <img src="img/mianmo.jpg">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div> -->
+        
+
+    </div>
+    <!-- 生活百货 -->
+    <div id="J_vogue">
+        <div class="floorhd">
+            <div class="grid_c2 floorhd_inner">
+                <h3 class="floorhd_tit">生活百货</h3>
+            </div>
+        </div>
+        <div class="chn">
+            <div class="grid_c1 clearfix">
+                <div class="box sort">
+                    <div class="box_hd">
+                        <a class="box_hd_lk">
+                        <h3 class="box_tit">京东超市</h3>
+                        <i class="box_hd_arrow"></i>
+                        <span class="box_subtit">精选超值好物</span>
+                        </a>
+                    </div>
+                    <div class="box_bd">
+                        <div class="sort_wrapper clearfix">
+                            <a href="#" class="sort_large">
+                                <img src="img/shot1.jpg">
+                            </a>
+                            <a href="#" class="sort_middle">
+                                <img src="img/chong.jpg">
+                            </a>
+                            <a href="#" class="sort_middle">
+                                <img src="img/lun.jpg">
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="box shop shop_act shop">
+                    <div class="shop_wrapper">
+                        <a href="#" class="shop_info">
+                            <div class="shop_logo">
+                                <img src="img/hd.jpg">
+                            </div>
+                            <div class="shop_name"><span class="shop_name_txt">恒都京东自营旗舰店</span></div>
+                        </a>
+                        <div class="shop_middle">
+                            <img src="img/rou.jpg">
+                        </div>
+                        <div class="shop_small clearfix">
+                            <a href="#" class="shop_small_item">
+                                <img src="img/rou02.jpg">
+                            </a>
+                            <a href="#" class="shop_small_item">
+                                <img src="img/rou02.jpg">
+                            </a>
+                            <a href="#" class="shop_small_item">
+                                <img src="img/rou02.jpg">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="box act box_last">
+                    <div class="act_inner">
+                        <a href="#" class="act_lk">
+                            <img src="img/buzhi.jpg">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="chn">
+            <div class="grid_c1 clearfix">
+                <div class="box act">
+                    <div class="act_inner">
+                        <a href="#" class="act_lk">
+                            <img src="img/man.jpg">
+                        </a>
+                    </div>
+                </div>
+                <div class="box treasure">
+                    <a href="#" class="treasure_scene">
+                        <div class="treasure_scene_hd">
+                            <h4 class="treasure_scene_tit">游戏人生 · 
+                                <span class="treasure_scene_subtit">超酷游戏
+                                </span>
+                            </h4>
+                        </div>
+                        <div class="treasure_scene_bd">
+                            <ul class="treasure_list">
+                                <li class="treasure_item">
+                                    <img src="img/xie.jpg">
+                                </li>
+                                <li class="treasure_item">
+                                <img src="img/xie01.jpg">
+                                </li>
+                            </ul>
+                        </div>
+                    </a>
+                    <a href="#" class="treasure_scene">
+                        <div class="treasure_scene_hd">
+                            <h4 class="treasure_scene_tit">听觉盛宴 · 
+                                <span class="treasure_scene_subtit">不一样的听觉
+                                </span>
+                            </h4>
+                        </div>
+                        <div class="treasure_scene_bd">
+                            <ul class="treasure_list">
+                                <li class="treasure_item">
+                                    <img src="img/xie.jpg">
+                                </li>
+                                <li class="treasure_item">
+                                <img src="img/xie01.jpg">
+                                </li>
+                            </ul>
+                        </div>
+                    </a>
+                </div>
+                <div class="box shop shop_act shop box_last">
+                    <div class="shop_wrapper">
+                        <div class="box_hd">
+                            <a class="box_hd_lk">
+                                <h3 class="box_tit">智能数码</h3>
+                                <i class="box_hd_arrow"></i>
+                                <span class="box_subtit">智能朝货嗨购不停</span>
+                            </a>
+                        </div>
+                        <div class="box_bd">
+                            <div class="sort_wrapper clearfix">
+                                <a href="#" class="sort_large">
+                                    <img src="img/vidio.jpg">
+                                </a>
+                                <a href="#" class="sort_large">
+                                    <img src="img/shouhuan.jpg">
+                                </a>
+                            </div>
+                        </div>
+
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+       
+
+    </div>
+    <!-- 居家优品 -->
+    <div id="J_vogue">
+        <div class="floorhd">
+            <div class="grid_c2 floorhd_inner">
+                <h3 class="floorhd_tit">居家优品</h3>
+            </div>
+        </div>
+        <div class="chn">
+            <div class="grid_c1 clearfix">
+                 <div class="box act">
+                    <div class="act_inner">
+                        <a href="#" class="act_lk">
+                            <img src="img/book.jpg">
+                        </a>
+                    </div>
+                </div>
+                <div class="box sort">
+                    <div class="box_hd">
+                        <a class="box_hd_lk">
+                        <h3 class="box_tit">家电馆</h3>
+                        <i class="box_hd_arrow"></i>
+                        <span class="box_subtit">家电好物节</span>
+                        </a>
+                    </div>
+                    <div class="box_bd">
+                        <div class="sort_wrapper clearfix">
+                            <a href="#" class="sort_large">
+                                <img src="img/shot1.jpg">
+                            </a>
+                            <a href="#" class="sort_middle">
+                                <img src="img/chong.jpg">
+                            </a>
+                            <a href="#" class="sort_middle">
+                                <img src="img/lun.jpg">
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="box sort box_last">
+                    <div class="box_hd">
+                        <a class="box_hd_lk">
+                        <h3 class="box_tit">我爱我家</h3>
+                        <i class="box_hd_arrow"></i>
+                        <span class="box_subtit">品质生活家</span>
+                        </a>
+                    </div>
+                    <div class="box_bd">
+                        <div class="sort_wrapper clearfix">
+                            <a href="#" class="sort_large">
+                                <img src="img/shot1.jpg">
+                            </a>
+                            <a href="#" class="sort_middle">
+                                <img src="img/chong.jpg">
+                            </a>
+                            <a href="#" class="sort_middle">
+                                <img src="img/lun.jpg">
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="chn">
+            <div class="grid_c1 clearfix">
+                
+                <div class="box treasure">
+                    <a href="#" class="treasure_scene">
+                        <div class="treasure_scene_hd">
+                            <h4 class="treasure_scene_tit">游戏人生 · 
+                                <span class="treasure_scene_subtit">超酷游戏
+                                </span>
+                            </h4>
+                        </div>
+                        <div class="treasure_scene_bd">
+                            <ul class="treasure_list">
+                                <li class="treasure_item">
+                                    <img src="img/xie.jpg">
+                                </li>
+                                <li class="treasure_item">
+                                <img src="img/xie01.jpg">
+                                </li>
+                            </ul>
+                        </div>
+                    </a>
+                    <a href="#" class="treasure_scene">
+                        <div class="treasure_scene_hd">
+                            <h4 class="treasure_scene_tit">听觉盛宴 · 
+                                <span class="treasure_scene_subtit">不一样的听觉
+                                </span>
+                            </h4>
+                        </div>
+                        <div class="treasure_scene_bd">
+                            <ul class="treasure_list">
+                                <li class="treasure_item">
+                                    <img src="img/xie.jpg">
+                                </li>
+                                <li class="treasure_item">
+                                <img src="img/xie01.jpg">
+                                </li>
+                            </ul>
+                        </div>
+                    </a>
+                </div>
+                <div class="box shop shop_act shop">
+                    <div class="shop_wrapper">
+                        <div class="box_hd">
+                            <a class="box_hd_lk">
+                                <h3 class="box_tit">智能数码</h3>
+                                <i class="box_hd_arrow"></i>
+                                <span class="box_subtit">智能朝货嗨购不停</span>
+                            </a>
+                        </div>
+                        <div class="box_bd">
+                            <div class="sort_wrapper clearfix">
+                                <a href="#" class="sort_large">
+                                    <img src="img/vidio.jpg">
+                                </a>
+                                <a href="#" class="sort_large">
+                                    <img src="img/shouhuan.jpg">
+                                </a>
+                            </div>
+                        </div>
+
+
+
+                    </div>
+                </div>
+                <div class="box act box_last">
+                    <div class="act_inner">
+                        <a href="#" class="act_lk">
+                            <img src="img/man.jpg">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+ 
+    </div>
+    <!-- JOY寻宝 -->
+     <div id="J_vogue">
+        <div class="floorhd">
+            <div class="grid_c2 floorhd_inner">
+                <h3 class="floorhd_tit">JOY寻宝</h3>
+            </div>
+        </div>
+        <div class="chn">
+            <div class="grid_c1 scene_inner clearfix">
+                 <div class="box scene_item">
+                     <a href="" class="scene_lk">
+                         <div class="scene_cover">
+                             <div class="lazyimg lazyimg_loaded scene_cover_img">
+                                 <img src="img/kid.jpg">
+                             </div>
+                             <div class="scene_mask"></div>
+                             <h4 class="scene_tit">玩儿乐汇 · 
+                             <span class="scene_subtit">儿童玩具</span></h4>
+                         </div>
+                         <ul class="scene_prodlist">
+                             <li class="scene_proditem">
+                                 <img src="img/pig.jpg">
+                             </li>
+                             <li class="scene_proditem">
+                                 <img src="img/pig.jpg">
+                             </li>
+                             <li class="scene_proditem">
+                                 <img src="img/pig.jpg">
+                             </li>
+                         </ul>
+                     </a>
+                 </div>
+                 <div class="box scene_item">
+                    <a href="" class="scene_lk">
+                         <div class="scene_cover">
+                             <div class="lazyimg lazyimg_loaded scene_cover_img">
+                                 <img src="img/kid.jpg">
+                             </div>
+                             <div class="scene_mask"></div>
+                             <h4 class="scene_tit">绝饰佳人 · 
+                             <span class="scene_subtit">我的饰界</span></h4>
+                         </div>
+                         <ul class="scene_prodlist">
+                             <li class="scene_proditem">
+                                 <img src="img/pig.jpg">
+                             </li>
+                             <li class="scene_proditem">
+                                 <img src="img/pig.jpg">
+                             </li>
+                             <li class="scene_proditem">
+                                 <img src="img/pig.jpg">
+                             </li>
+                         </ul>
+                     </a>
+                 </div>
+                 <div class="box scene_item box_last">
+                     <a href="" class="scene_lk">
+                         <div class="scene_cover">
+                             <div class="lazyimg lazyimg_loaded scene_cover_img">
+                                 <img src="img/kid.jpg">
+                             </div>
+                             <div class="scene_mask"></div>
+                             <h4 class="scene_tit">机不离手 · 
+                             <span class="scene_subtit">手机心水尖货</span></h4>
+                         </div>
+                         <ul class="scene_prodlist">
+                             <li class="scene_proditem">
+                                 <img src="img/pig.jpg">
+                             </li>
+                             <li class="scene_proditem">
+                                 <img src="img/pig.jpg">
+                             </li>
+                             <li class="scene_proditem">
+                                 <img src="img/pig.jpg">
+                             </li>
+                         </ul>
+                     </a>
+                 </div>
+                 <div class="box scene_item">
+                     <a href="" class="scene_lk">
+                         <div class="scene_cover">
+                             <div class="lazyimg lazyimg_loaded scene_cover_img">
+                                 <img src="img/kid.jpg">
+                             </div>
+                             <div class="scene_mask"></div>
+                             <h4 class="scene_tit">喂奶这事 · 
+                             <span class="scene_subtit">哺乳用品</span></h4>
+                         </div>
+                         <ul class="scene_prodlist">
+                             <li class="scene_proditem">
+                                 <img src="img/pig.jpg">
+                             </li>
+                             <li class="scene_proditem">
+                                 <img src="img/pig.jpg">
+                             </li>
+                             <li class="scene_proditem">
+                                 <img src="img/pig.jpg">
+                             </li>
+                         </ul>
+                     </a>
+                 </div>
+                 <div class="box scene_item">
+                     <a href="" class="scene_lk">
+                         <div class="scene_cover">
+                             <div class="lazyimg lazyimg_loaded scene_cover_img">
+                                 <img src="img/kid.jpg">
+                             </div>
+                             <div class="scene_mask"></div>
+                             <h4 class="scene_tit">办公助手 · 
+                             <span class="scene_subtit">办公室好物</span></h4>
+                         </div>
+                         <ul class="scene_prodlist">
+                             <li class="scene_proditem">
+                                 <img src="img/pig.jpg">
+                             </li>
+                             <li class="scene_proditem">
+                                 <img src="img/pig.jpg">
+                             </li>
+                             <li class="scene_proditem">
+                                 <img src="img/pig.jpg">
+                             </li>
+                         </ul>
+                     </a>
+                 </div>
+                 <div class="box scene_item box_last">
+                     <a href="" class="scene_lk">
+                         <div class="scene_cover">
+                             <div class="lazyimg lazyimg_loaded scene_cover_img">
+                                 <img src="img/kid.jpg">
+                             </div>
+                             <div class="scene_mask"></div>
+                             <h4 class="scene_tit">行走万里 · 
+                             <span class="scene_subtit">户外装备</span></h4>
+                         </div>
+                         <ul class="scene_prodlist">
+                             <li class="scene_proditem">
+                                 <img src="img/pig.jpg">
+                             </li>
+                             <li class="scene_proditem">
+                                 <img src="img/pig.jpg">
+                             </li>
+                             <li class="scene_proditem">
+                                 <img src="img/pig.jpg">
+                             </li>
+                         </ul>
+                     </a>
+                 </div>
+            </div>
+        </div>
+    </div>
+    <!-- 特色推荐 -->
+    <div id="J_vogue">
+        <div class="floorhd">
+            <div class="grid_c2 floorhd_inner">
+                <h3 class="floorhd_tit">特色推荐</h3>
+            </div>
+        </div>
+        
+        <div class="chn">
+            <div class="grid_c11 clearfix" style="position:relative" >
+                <ul class="swlb_last">
+                    <li class="swlb_last_item ">
+                        <div class="box shop shop_act shop">
+                            <div class="shop_wrapper">
+                                <div class="box_hd">
+                                    <a class="box_hd_lk">
+                                        <h3 class="box_tit">智能数码</h3>
+                                        <i class="box_hd_arrow"></i>
+                                        <span class="box_subtit">智能朝货嗨购不停</span>
+                                    </a>
+                                </div>
+                                <div class="box_bd">
+                                    <div class="sort_wrapper clearfix">
+                                        <a href="#" class="sort_large">
+                                            <img src="img/vidio.jpg">
+                                        </a>
+                                        <a href="#" class="sort_large">
+                                            <img src="img/shouhuan.jpg">
+                                        </a>
+                                    </div>
+                                </div>
+
+
+
+                            </div>
+                        </div>
+                        <div class="box shop shop_act shop">
+                            <div class="shop_wrapper">
+                                <div class="box_hd">
+                                    <a class="box_hd_lk">
+                                        <h3 class="box_tit">智能数码</h3>
+                                        <i class="box_hd_arrow"></i>
+                                        <span class="box_subtit">智能朝货嗨购不停</span>
+                                    </a>
+                                </div>
+                                <div class="box_bd">
+                                    <div class="sort_wrapper clearfix">
+                                        <a href="#" class="sort_large">
+                                            <img src="img/vidio.jpg">
+                                        </a>
+                                        <a href="#" class="sort_large">
+                                            <img src="img/shouhuan.jpg">
+                                        </a>
+                                    </div>
+                                </div>
+
+
+
+                            </div>
+                        </div>
+                        <div class="box shop shop_act shop box_last">
+                            <div class="shop_wrapper">
+                                <div class="box_hd">
+                                    <a class="box_hd_lk">
+                                        <h3 class="box_tit">智能数码</h3>
+                                        <i class="box_hd_arrow"></i>
+                                        <span class="box_subtit">智能朝货嗨购不停</span>
+                                    </a>
+                                </div>
+                                <div class="box_bd">
+                                    <div class="sort_wrapper clearfix">
+                                        <a href="#" class="sort_large">
+                                            <img src="img/vidio.jpg">
+                                        </a>
+                                        <a href="#" class="sort_large">
+                                            <img src="img/shouhuan.jpg">
+                                        </a>
+                                    </div>
+                                </div>
+
+
+
+                            </div>
+                        </div>
+                    </li>
+                    <li class="swlb_last_item ">
+                        <div class="box shop shop_act shop">
+                            <div class="shop_wrapper">
+                                <div class="box_hd">
+                                    <a class="box_hd_lk">
+                                        <h3 class="box_tit">智能数码</h3>
+                                        <i class="box_hd_arrow"></i>
+                                        <span class="box_subtit">智能朝货嗨购不停</span>
+                                    </a>
+                                </div>
+                                <div class="box_bd">
+                                    <div class="sort_wrapper clearfix">
+                                        <a href="#" class="sort_large">
+                                            <img src="img/vidio.jpg">
+                                        </a>
+                                        <a href="#" class="sort_large">
+                                            <img src="img/shouhuan.jpg">
+                                        </a>
+                                    </div>
+                                </div>
+
+
+
+                            </div>
+                        </div>
+                        <div class="box shop shop_act shop">
+                            <div class="shop_wrapper">
+                                <div class="box_hd">
+                                    <a class="box_hd_lk">
+                                        <h3 class="box_tit">智能数码</h3>
+                                        <i class="box_hd_arrow"></i>
+                                        <span class="box_subtit">智能朝货嗨购不停</span>
+                                    </a>
+                                </div>
+                                <div class="box_bd">
+                                    <div class="sort_wrapper clearfix">
+                                        <a href="#" class="sort_large">
+                                            <img src="img/vidio.jpg">
+                                        </a>
+                                        <a href="#" class="sort_large">
+                                            <img src="img/shouhuan.jpg">
+                                        </a>
+                                    </div>
+                                </div>
+
+
+
+                            </div>
+                        </div>
+                        <div class="box shop shop_act shop box_last">
+                            <div class="shop_wrapper">
+                                <div class="box_hd">
+                                    <a class="box_hd_lk">
+                                        <h3 class="box_tit">智能数码</h3>
+                                        <i class="box_hd_arrow"></i>
+                                        <span class="box_subtit">智能朝货嗨购不停</span>
+                                    </a>
+                                </div>
+                                <div class="box_bd">
+                                    <div class="sort_wrapper clearfix">
+                                        <a href="#" class="sort_large">
+                                            <img src="img/vidio.jpg">
+                                        </a>
+                                        <a href="#" class="sort_large">
+                                            <img src="img/shouhuan.jpg">
+                                        </a>
+                                    </div>
+                                </div>
+
+
+
+                            </div>
+                        </div>
+                    </li>
+                    <li class="swlb_last_item ">
+                        <div class="box shop shop_act shop">
+                            <div class="shop_wrapper">
+                                <div class="box_hd">
+                                    <a class="box_hd_lk">
+                                        <h3 class="box_tit">智能数码</h3>
+                                        <i class="box_hd_arrow"></i>
+                                        <span class="box_subtit">智能朝货嗨购不停</span>
+                                    </a>
+                                </div>
+                                <div class="box_bd">
+                                    <div class="sort_wrapper clearfix">
+                                        <a href="#" class="sort_large">
+                                            <img src="img/vidio.jpg">
+                                        </a>
+                                        <a href="#" class="sort_large">
+                                            <img src="img/shouhuan.jpg">
+                                        </a>
+                                    </div>
+                                </div>
+
+
+
+                            </div>
+                        </div>
+                        <div class="box shop shop_act shop">
+                            <div class="shop_wrapper">
+                                <div class="box_hd">
+                                    <a class="box_hd_lk">
+                                        <h3 class="box_tit">智能数码</h3>
+                                        <i class="box_hd_arrow"></i>
+                                        <span class="box_subtit">智能朝货嗨购不停</span>
+                                    </a>
+                                </div>
+                                <div class="box_bd">
+                                    <div class="sort_wrapper clearfix">
+                                        <a href="#" class="sort_large">
+                                            <img src="img/vidio.jpg">
+                                        </a>
+                                        <a href="#" class="sort_large">
+                                            <img src="img/shouhuan.jpg">
+                                        </a>
+                                    </div>
+                                </div>
+
+
+
+                            </div>
+                        </div>
+                        <div class="box shop shop_act shop box_last">
+                            <div class="shop_wrapper">
+                                <div class="box_hd">
+                                    <a class="box_hd_lk">
+                                        <h3 class="box_tit">智能数码</h3>
+                                        <i class="box_hd_arrow"></i>
+                                        <span class="box_subtit">智能朝货嗨购不停</span>
+                                    </a>
+                                </div>
+                                <div class="box_bd">
+                                    <div class="sort_wrapper clearfix">
+                                        <a href="#" class="sort_large">
+                                            <img src="img/vidio.jpg">
+                                        </a>
+                                        <a href="#" class="sort_large">
+                                            <img src="img/shouhuan.jpg">
+                                        </a>
+                                    </div>
+                                </div>
+
+
+
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+                
+            </div>
+            <div id="next_last">></div>
+            <div id="prev_last"><</div>
+        </div>
+ 
+    </div>
+    <!-- 京东直播 -->
+    <div id="J_vogue">
+        <div class="floorhd">
+            <div class="grid_c2 floorhd_inner">
+                <h3 class="floorhd_tit">京东直播</h3>
+            </div>
+        </div>
+        <div class="grid_c1 live_inner clearfix">
+            <div class="box live_box">
+                <div class="live_slider">
+                    <a href="#" class="live_item live_middle">
+                    <div>
+                        <img src="img/fo.jpg">
+                    </div>
+                    <div class="live_btn"></div>
+                    </a>
+                    <a href="#" class="live_item live_middle">
+                    <div>
+                        <img src="img/fo.jpg">
+                    </div>
+                    <div class="live_btn"></div>
+                    </a>
+                    <a href="#" class="live_item live_middle">
+                    <div>
+                        <img src="img/fo.jpg">
+                    </div>
+                    <div class="live_btn"></div>
+                    </a>
+                    <a href="#" class="live_item live_middle">
+                    <div>
+                        <img src="img/fo.jpg">
+                    </div>
+                    <div class="live_btn"></div>
+                    </a>
+                </div>
+            </div>
+            <div class="box live_box">
+                <div class="live_slider">
+                    <a href="#"class="live_item live_large">
+                        <div id="canvas">
+                            <img src="img/xjj.jpg">
+                            <div class="live_btn"></div>
+                            <div class="live_info"><p class="live_title">娜娜叫你如何化妆，卡婷</p><p class="live_desc">优惠，折扣，送礼品</p></div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="box live_box box_last">
+                <div class="live_slider">
+                    <a href="#" class="live_item live_middle">
+                    <div>
+                        <img src="img/fo.jpg">
+                    </div>
+                    <div class="live_btn"></div>
+                    </a>
+                    <a href="#" class="live_item live_middle">
+                    <div>
+                        <img src="img/fo.jpg">
+                    </div>
+                    <div class="live_btn"></div>
+                    </a>
+                    <a href="#" class="live_item live_middle">
+                    <div>
+                        <img src="img/fo.jpg">
+                    </div>
+                    <div class="live_btn"></div>
+                    </a>
+                    <a href="#" class="live_item live_middle">
+                    <div>
+                        <img src="img/fo.jpg">
+                    </div>
+                    <div class="live_btn"></div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 还没逛够 瀑布流 -->
+    <div id="J_vogue">
+        <div class="floorhd">
+            <div class="grid_c2 floorhd_inner">
+                <h3 class="floorhd_tit">还没逛够</h3>
+            </div>
+        </div>
+        <div class="grid_c1 more_inner">
+            
+                <ul class="more_list clearfix">
+                    <li class="more_item more_item_good">
+                        <a href="#">
+                            <div class="lazyimg lazyimg_loaded more_img">
+                                <img src="img/xbg.jpg">
+                            </div>
+                            <div class="more_info"><p class="more_info_name">三只松鼠饼干蛋糕网红儿童零食早餐食品点心薄脆饼干蔓越莓曲奇100g/袋</p><div class="more_info_price"><div class="mod_price"><i>¥</i><span class="more_info_price_txt">12.90</span></div></div></div>
+                        </a>
+                    </li>
+                    <li class="more_item more_item_good">
+                        <a href="#">
+                            <div class="lazyimg lazyimg_loaded more_img">
+                                <img src="img/xbg.jpg">
+                            </div>
+                            <div class="more_info"><p class="more_info_name">三只松鼠饼干蛋糕网红儿童零食早餐食品点心薄脆饼干蔓越莓曲奇100g/袋</p><div class="more_info_price"><div class="mod_price"><i>¥</i><span class="more_info_price_txt">12.90</span></div></div></div>
+                        </a>
+                    </li>
+
+                    <li class="more_item more_item_good">
+                        <a href="#">
+                            <div class="lazyimg lazyimg_loaded more_img">
+                                <img src="img/xbg.jpg">
+                            </div>
+                            <div class="more_info"><p class="more_info_name">三只松鼠饼干蛋糕网红儿童零食早餐食品点心薄脆饼干蔓越莓曲奇100g/袋</p><div class="more_info_price"><div class="mod_price"><i>¥</i><span class="more_info_price_txt">12.90</span></div></div></div>
+                        </a>
+                    </li>
+                    <li class="more_item more_item_good">
+                        <a href="#">
+                            <div class="lazyimg lazyimg_loaded more_img">
+                                <img src="img/xbg.jpg">
+                            </div>
+                            <div class="more_info"><p class="more_info_name">三只松鼠饼干蛋糕网红儿童零食早餐食品点心薄脆饼干蔓越莓曲奇100g/袋</p><div class="more_info_price"><div class="mod_price"><i>¥</i><span class="more_info_price_txt">12.90</span></div></div></div>
+                        </a>
+                    </li>
+                    <li class="more_item more_item_good">
+                        <a href="#">
+                            <div class="lazyimg lazyimg_loaded more_img">
+                                <img src="img/xbg.jpg">
+                            </div>
+                            <div class="more_info"><p class="more_info_name">三只松鼠饼干蛋糕网红儿童零食早餐食品点心薄脆饼干蔓越莓曲奇100g/袋</p><div class="more_info_price"><div class="mod_price"><i>¥</i><span class="more_info_price_txt">12.90</span></div></div></div>
+                        </a>
+                    </li>
+                    <li class="more_item more_item_good">
+                        <a href="#">
+                            <div class="lazyimg lazyimg_loaded more_img">
+                                <img src="img/xbg.jpg">
+                            </div>
+                            <div class="more_info"><p class="more_info_name">三只松鼠饼干蛋糕网红儿童零食早餐食品点心薄脆饼干蔓越莓曲奇100g/袋</p><div class="more_info_price"><div class="mod_price"><i>¥</i><span class="more_info_price_txt">12.90</span></div></div></div>
+                        </a>
+                    </li>
+                    <li class="more_item more_item_good">
+                        <a href="#">
+                            <div class="lazyimg lazyimg_loaded more_img">
+                                <img src="img/xbg.jpg">
+                            </div>
+                            <div class="more_info"><p class="more_info_name">三只松鼠饼干蛋糕网红儿童零食早餐食品点心薄脆饼干蔓越莓曲奇100g/袋</p><div class="more_info_price"><div class="mod_price"><i>¥</i><span class="more_info_price_txt">12.90</span></div></div></div>
+                        </a>
+                    </li>
+                    <li class="more_item more_item_good">
+                        <a href="#">
+                            <div class="lazyimg lazyimg_loaded more_img">
+                                <img src="img/xbg.jpg">
+                            </div>
+                            <div class="more_info"><p class="more_info_name">三只松鼠饼干蛋糕网红儿童零食早餐食品点心薄脆饼干蔓越莓曲奇100g/袋</p><div class="more_info_price"><div class="mod_price"><i>¥</i><span class="more_info_price_txt">12.90</span></div></div></div>
+                        </a>
+                    </li>
+                    <li class="more_item more_item_good">
+                        <a href="#">
+                            <div class="lazyimg lazyimg_loaded more_img">
+                                <img src="img/xbg.jpg">
+                            </div>
+                            <div class="more_info"><p class="more_info_name">三只松鼠饼干蛋糕网红儿童零食早餐食品点心薄脆饼干蔓越莓曲奇100g/袋</p><div class="more_info_price"><div class="mod_price"><i>¥</i><span class="more_info_price_txt">12.90</span></div></div></div>
+                        </a>
+                    </li>
+                    <li class="more_item more_item_good">
+                        <a href="#">
+                            <div class="lazyimg lazyimg_loaded more_img">
+                                <img src="img/xbg.jpg">
+                            </div>
+                            <div class="more_info"><p class="more_info_name">三只松鼠饼干蛋糕网红儿童零食早餐食品点心薄脆饼干蔓越莓曲奇100g/袋</p><div class="more_info_price"><div class="mod_price"><i>¥</i><span class="more_info_price_txt">12.90</span></div></div></div>
+                        </a>
+                    </li>
+                    <li class="more_item more_item_good">
+                        <a href="#">
+                            <div class="lazyimg lazyimg_loaded more_img">
+                                <img src="img/xbg.jpg">
+                            </div>
+                            <div class="more_info"><p class="more_info_name">三只松鼠饼干蛋糕网红儿童零食早餐食品点心薄脆饼干蔓越莓曲奇100g/袋</p><div class="more_info_price"><div class="mod_price"><i>¥</i><span class="more_info_price_txt">12.90</span></div></div></div>
+                        </a>
+                    </li>
+                    <li class="more_item more_item_good">
+                        <a href="#">
+                            <div class="lazyimg lazyimg_loaded more_img">
+                                <img src="img/xbg.jpg">
+                            </div>
+                            <div class="more_info"><p class="more_info_name">三只松鼠饼干蛋糕网红儿童零食早餐食品点心薄脆饼干蔓越莓曲奇100g/袋</p><div class="more_info_price"><div class="mod_price"><i>¥</i><span class="more_info_price_txt">12.90</span></div></div></div>
+                        </a>
+                    </li>
+
+                    <li class="more_item more_item_good">
+                        <a href="#">
+                            <div class="lazyimg lazyimg_loaded more_img">
+                                <img src="img/xbg.jpg">
+                            </div>
+                            <div class="more_info"><p class="more_info_name">三只松鼠饼干蛋糕网红儿童零食早餐食品点心薄脆饼干蔓越莓曲奇100g/袋</p><div class="more_info_price"><div class="mod_price"><i>¥</i><span class="more_info_price_txt">12.90</span></div></div></div>
+                        </a>
+                    </li>
+                    <li class="more_item more_item_good">
+                        <a href="#">
+                            <div class="lazyimg lazyimg_loaded more_img">
+                                <img src="img/xbg.jpg">
+                            </div>
+                            <div class="more_info"><p class="more_info_name">三只松鼠饼干蛋糕网红儿童零食早餐食品点心薄脆饼干蔓越莓曲奇100g/袋</p><div class="more_info_price"><div class="mod_price"><i>¥</i><span class="more_info_price_txt">12.90</span></div></div></div>
+                        </a>
+                    </li>
+                    <li class="more_item more_item_good">
+                        <a href="#">
+                            <div class="lazyimg lazyimg_loaded more_img">
+                                <img src="img/xbg.jpg">
+                            </div>
+                            <div class="more_info"><p class="more_info_name">三只松鼠饼干蛋糕网红儿童零食早餐食品点心薄脆饼干蔓越莓曲奇100g/袋</p><div class="more_info_price"><div class="mod_price"><i>¥</i><span class="more_info_price_txt">12.90</span></div></div></div>
+                        </a>
+                    </li>
+                    <li class="more_item more_item_good">
+                        <a href="#">
+                            <div class="lazyimg lazyimg_loaded more_img">
+                                <img src="img/xbg.jpg">
+                            </div>
+                            <div class="more_info"><p class="more_info_name">三只松鼠饼干蛋糕网红儿童零食早餐食品点心薄脆饼干蔓越莓曲奇100g/袋</p><div class="more_info_price"><div class="mod_price"><i>¥</i><span class="more_info_price_txt">12.90</span></div></div></div>
+                        </a>
+                    </li>
+                    <li class="more_item more_item_good">
+                        <a href="#">
+                            <div class="lazyimg lazyimg_loaded more_img">
+                                <img src="img/xbg.jpg">
+                            </div>
+                            <div class="more_info"><p class="more_info_name">三只松鼠饼干蛋糕网红儿童零食早餐食品点心薄脆饼干蔓越莓曲奇100g/袋</p><div class="more_info_price"><div class="mod_price"><i>¥</i><span class="more_info_price_txt">12.90</span></div></div></div>
+                        </a>
+                    </li>
+                    <li class="more_item more_item_good">
+                        <a href="#">
+                            <div class="lazyimg lazyimg_loaded more_img">
+                                <img src="img/xbg.jpg">
+                            </div>
+                            <div class="more_info"><p class="more_info_name">三只松鼠饼干蛋糕网红儿童零食早餐食品点心薄脆饼干蔓越莓曲奇100g/袋</p><div class="more_info_price"><div class="mod_price"><i>¥</i><span class="more_info_price_txt">12.90</span></div></div></div>
+                        </a>
+                    </li>
+                    <li class="more_item more_item_good">
+                        <a href="#">
+                            <div class="lazyimg lazyimg_loaded more_img">
+                                <img src="img/xbg.jpg">
+                            </div>
+                            <div class="more_info"><p class="more_info_name">三只松鼠饼干蛋糕网红儿童零食早餐食品点心薄脆饼干蔓越莓曲奇100g/袋</p><div class="more_info_price"><div class="mod_price"><i>¥</i><span class="more_info_price_txt">12.90</span></div></div></div>
+                        </a>
+                    </li>
+                    <li class="more_item more_item_good">
+                        <a href="#">
+                            <div class="lazyimg lazyimg_loaded more_img">
+                                <img src="img/xbg.jpg">
+                            </div>
+                            <div class="more_info"><p class="more_info_name">三只松鼠饼干蛋糕网红儿童零食早餐食品点心薄脆饼干蔓越莓曲奇100g/袋</p><div class="more_info_price"><div class="mod_price"><i>¥</i><span class="more_info_price_txt">12.90</span></div></div></div>
+                        </a>
+                    </li>
+                </ul>
+            
+        </div>
+        
+    </div>
+    <!-- 底部 -->
+    <footer id="footer">
+        <div class="mod_service">
+            <div class="grid_c1 mod_service_inner">
+                <ul class="mod_service_list">
+                    <li class="mod_service_item">
+                        <div class="mod_service_unit">
+                            <h5 class="mod_service_tit mod_service_duo">多</h5>
+                            <p class="mod_service_txt">品类齐全，轻松购物</p>
+                        </div>
+                    </li>
+                    <li class="mod_service_item">
+                        <div class="mod_service_unit">
+                            <h5 class="mod_service_tit mod_service_kuai">快</h5>
+                            <p class="mod_service_txt">多仓直发，极速配送</p>
+                        </div>
+                    </li>
+                    <li class="mod_service_item">
+                        <div class="mod_service_unit">
+                            <h5 class="mod_service_tit mod_service_hao">好</h5>
+                            <p class="mod_service_txt">正品行货，精致服务</p>
+                        </div>
+                    </li>
+                    <li class="mod_service_item">
+                        <div class="mod_service_unit">
+                            <h5 class="mod_service_tit mod_service_sheng">省</h5>
+                            <p class="mod_service_txt">天天低价，畅选无忧</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="mod_help">
+            <div class="grid_c1 mod_help_inner">
+                <div class="mod_help_list">
+                    
+                    <div class="mod_help_nav">
+                        <h5 class="mod_help_nav_tit">购物指南</h5>
+                        <ul class="mod_help_nav_con">
+                            <li>购物流程</li>
+                            <li>会员介绍</li>
+                            <li>生活旅行</li>
+                            <li>常见问题</li>
+                            <li>大家电</li>
+                            <li>联系客服</li>
+                        </ul>
+                    </div>
+                    <div class="mod_help_nav">
+                        <h5 class="mod_help_nav_tit">配送方式</h5>
+                        <ul class="mod_help_nav_con">
+                            <li>上门自提</li>
+                            <li>211限时达</li>
+                            <li>配送服务查询</li>
+                            <li>配送费收取标准</li>
+                            <li>海外配送</li>
+                            <li>联系客服</li>
+                        </ul>
+                    </div>
+                    <div class="mod_help_nav">
+                        <h5 class="mod_help_nav_tit">支付方式</h5>
+                        <ul class="mod_help_nav_con">
+                            <li>货到付款</li>
+                            <li>在线支付</li>
+                            <li>分期付款</li>
+                            <li>邮局汇款</li>
+                            <li>公司转账</li>
+                            
+                        </ul>
+                    </div>
+                    <div class="mod_help_nav">
+                        <h5 class="mod_help_nav_tit">售后服务</h5>
+                        <ul class="mod_help_nav_con">
+                            <li>售后政策</li>
+                            <li>价格保护</li>
+                            <li>退款说明</li>
+                            <li>返修/退换货</li>
+                            <li>取消订单</li>
+                            
+                        </ul>
+                    </div>
+                    <div class="mod_help_nav">
+                        <h5 class="mod_help_nav_tit">特色服务</h5>
+                        <ul class="mod_help_nav_con">
+                            <li>夺宝岛</li>
+                            <li>DIY装机</li>
+                            <li>延保服务</li>
+                            <li>京东E卡</li>
+                            <li>京东通信</li>
+                            <li>京东JD+</li>
+                        </ul>
+                    </div>
+                    <div class="mod_help_cover">
+                        <h5 class="mod_help_cover_tit">京东自营覆盖区县</h5>
+                        <div class="mod_help_cover_con">
+                            <p class="mod_help_cover_info">京东已向全国2661个区县提供自营配送服务，支持货到付款、POS机刷卡和售后上门服务。</p>
+                            <p class="mod_help_cover_more"><a>查看详情 >
+                        </a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="mod_copyright">
+            <div class="grid_c1 mod_copyright_inner">
+                <p class="mod_copyright_links" ><a >关于我们</a><span class="mod_copyright_split">|</span><a>联系我们</a><span class="mod_copyright_split">|</span><a>联系客服</a><span class="mod_copyright_split">|</span><a>合作招商</a><span class="mod_copyright_split">|</span><a>商家帮助</a><span class="mod_copyright_split">|</span><a>营销中心</a><span class="mod_copyright_split">|</span><a>手机京东</a><span class="mod_copyright_split">|</span><a>友情链接</a><span class="mod_copyright_split">|</span><a>销售联盟</a><span class="mod_copyright_split">|</span><a>京东社区</a><span class="mod_copyright_split">|</span><a>风险监测</a><span class="mod_copyright_split">|</span><a>隐私政策</a><span class="mod_copyright_split">|</span><a>京东公益</a><span class="mod_copyright_split">|</span><a>English Site</a><span class="mod_copyright_split">|</span><a>Media &amp; IR</a></p>
+                <div class="mod_copyright_info">
+                    <div class="mod_copyright_cert">
+                    <p>
+                        <a>京公网安备 11000002000088号</a>
+                        <span class="mod_copyright_split">|</span>
+                        <span>京ICP证070359号</span>
+                        <span class="mod_copyright_split">|</span>
+                        <a >互联网药品信息服务资格证编号(京)-经营性-2014-0008</a>
+                        <span class="mod_copyright_split">|</span>
+                        <span>新出发京零&nbsp;字第大120007号</span>
+                    </p>
+                    <p><span>互联网出版许可证编号新出网证(京)字150号</span><span class="mod_copyright_split">|</span><a>出版物经营许可证</a><span class="mod_copyright_split">|</span><a>网络文化经营许可证京网文[2014]2148-348号</a><span class="mod_copyright_split">|</span><span>违法和不良信息举报电话：4006561155</span></p>
+                    <p><span>Copyright&nbsp;©&nbsp;2004&nbsp;-&nbsp;2018&nbsp;&nbsp;京东JD.com&nbsp;版权所有</span><span class="mod_copyright_split">|</span><span>消费者维权热线：4006067733</span><a class="mod_copyright_license">经营证照</a><span class="mod_copyright_split">|</span><span>(京)网械平台备字(2018)第00003号</span><span class="mod_copyright_split">|</span><aclass="mod_business_license">营业执照</a></p>
+                    </div>
+                    <div class="mod_copyright_inter">
+                        <img src="img/国家.png">
+                    </div>
+                    <div class="mod_copyright_subsites">
+                        <p><span>京东旗下网站：</span><a href="#" >京东钱包</a><span class="mod_copyright_split">|</span><a href="#">京东云</a></p>
+                    </div>
+                </div>
+                <p class="mod_copyright_auth">
+                    <a class="mod_copyright_auth_ico mod_copyright_auth_ico_2">可信网站信用评估</a>
+                    <a class="mod_copyright_auth_ico mod_copyright_auth_ico_3">网络警察提醒你</a>
+                    <a class="mod_copyright_auth_ico mod_copyright_auth_ico_4">诚信网站</a>
+                    <a class="mod_copyright_auth_ico mod_copyright_auth_ico_5">中国互联网举报中心</a>
+                    <a class="mod_copyright_auth_ico mod_copyright_auth_ico_6">网络举报APP下载</a>
+                </p>
+            </div>
+        </div>
+    </footer>
+    <div id="back"> 返回顶部</div>
+</body>
+</html>

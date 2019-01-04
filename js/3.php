@@ -1,0 +1,9 @@
+<?php
+    // 定义模拟的数据库
+
+    $res='<li class="more_item more_item_good"><a href="#"><div class="lazyimg lazyimg_loaded more_img"><img src="img/xbg.jpg"></div><div class="more_info"><p class="more_info_name">三只松鼠饼干蛋糕网红儿童零食早餐食品点心薄脆饼干蔓越莓曲奇100g/袋</p><div class="more_info_price"><div class="mod_price"><i>¥</i><span class="more_info_price_txt">12.90</span></div></div></div></a></li><li class="more_item more_item_good"><a href="#"><div class="lazyimg lazyimg_loaded more_img"><img src="img/xbg.jpg"></div><div class="more_info"><p class="more_info_name">三只松鼠饼干蛋糕网红儿童零食早餐食品点心薄脆饼干蔓越莓曲奇100g/袋</p><div class="more_info_price"><div class="mod_price"><i>¥</i><span class="more_info_price_txt">12.90</span></div></div></div></a></li><li class="more_item more_item_good"><a href="#"><div class="lazyimg lazyimg_loaded more_img"><img src="img/xbg.jpg"></div><div class="more_info"><p class="more_info_name">三只松鼠饼干蛋糕网红儿童零食早餐食品点心薄脆饼干蔓越莓曲奇100g/袋</p><div class="more_info_price"><div class="mod_price"><i>¥</i><span class="more_info_price_txt">12.90</span></div></div></div></a></li><li class="more_item more_item_good"><a href="#"><div class="lazyimg lazyimg_loaded more_img"><img src="img/xbg.jpg"></div><div class="more_info"><p class="more_info_name">三只松鼠饼干蛋糕网红儿童零食早餐食品点心薄脆饼干蔓越莓曲奇100g/袋</p><div class="more_info_price"><div class="mod_price"><i>¥</i><span class="more_info_price_txt">12.90</span></div></div></div></a></li><li class="more_item more_item_good"><a href="#"><div class="lazyimg lazyimg_loaded more_img"><img src="img/xbg.jpg"></div><div class="more_info"><p class="more_info_name">三只松鼠饼干蛋糕网红儿童零食早餐食品点心薄脆饼干蔓越莓曲奇100g/袋</p><div class="more_info_price"><div class="mod_price"><i>¥</i><span class="more_info_price_txt">12.90</span></div></div></div></a></li>';
+
+    // 输出请求的数据
+    echo $res;
+
+?>
